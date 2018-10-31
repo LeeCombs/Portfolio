@@ -41,3 +41,38 @@ a:hover {
 .project-card:hover {
     background-color: lightgreen;
 }
+
+.h-entry {
+    min-height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    img {
+        width: 200px;
+        height: 200px;
+        float: left;
+        box-shadow: 3px 3px 3px grey;
+        background-color: white;
+    }
+    
+    .post-title {
+        padding-left: 210px;
+    }
+    
+    .post-header {
+        margin-bottom: 5px;
+    }
+    
+    .post-description {
+        padding-left: 210px;
+    }
+}
+
+.post-content {
+    padding-top: 10px;
+    background-color: mediumpurple;
+    
+    h1 {
+        margin-bottom: 5px;
+    }
+}
