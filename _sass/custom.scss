@@ -1,0 +1,40 @@
+body { 
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.project-card {
+    min-height: 100px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    
+    
+    img {
+        width: 100px;
+        height: 100px;
+        float: left;
+        box-shadow: 3px 3px 3px grey;
+        background-color: white;
+    }
+    
+    div {
+        padding-left: 120px;
+        color: black;
+    }
+    
+    h1 {
+        padding-left: 110px;
+        margin-bottom: 5px;
+        color: black;
+    }
+    
+    .current {
+        color:red;
+    }
+}
+
+.project-card:hover {
+    background-color: lightgreen;
+}
