@@ -1,3 +1,8 @@
+body {
+    background-color: forestgreen;
+    background-image: url(/assets/green_squares3.png);
+}
+
 .page-content {
     .wrapper {
         background-color: orange;
@@ -29,7 +34,7 @@ a:hover {
     
     h1 {
         padding-left: 110px;
-        margin-bottom: 5px;
+        margin-bottom: 0;
         color: black;
     }
     
@@ -95,8 +100,13 @@ a:hover {
     padding-bottom: 10px;
     background-color: gold;
     
+    .activity-content {
+        padding-left: 10px;
+    }
+    
     h2 {
         margin-bottom: 5px;
+        font-weight: bold;
     }
     
     .github-activity {
@@ -123,6 +133,25 @@ a:hover {
         .github-date {
             color: gray;
             float: right;
+        }
+    }
+}
+
+.site-header {
+    .wrapper {
+        background-color: darkslategray;
+    }
+    
+    .site-title {
+        color: white;
+        font-weight: 400;
+    }
+}
+
+.site-nav {
+    .trigger {
+        a {
+            color: white;
         }
     }
 }

@@ -16,12 +16,27 @@ layout: default
     
     <div class="recent-activity">
         <h1>Recent Activity</h1>
-        <div class="project-activity">
-            <h2>Projects</h2>
-            Show most recently modified project card here
-        </div>
-        <div class="github-activity">
-            {%- include github_activity.html -%}
+        <div class="activity-content">
+            <div class="project-activity">
+                <h2>Projects</h2>
+                {% for post in site.categories.projects limit:1 offset:1 %}
+                    <a href="{{ post.url | absolute_url }}">
+                        <div class="project-card">
+                            <img src="{{ post.thumbnail_link }}">
+                            <h1>{{ post.title }}</h1>
+                            <div>
+                                <strong>Technologies:</strong> {{ post.technologies }}
+                            </div>
+                            <div>
+                                <strong>Description:</strong> {{ post.short_description }}
+                            </div>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+            <div class="github-activity">
+                {%- include github_activity.html -%}
+            </div>
         </div>
     </div><!-- recent-activity end -->
     
