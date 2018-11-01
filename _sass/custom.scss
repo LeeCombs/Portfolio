@@ -48,15 +48,15 @@ a:hover {
     padding-bottom: 20px;
     
     img {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         float: left;
         box-shadow: 3px 3px 3px grey;
         background-color: white;
     }
     
     .post-title {
-        padding-left: 210px;
+        padding-left: 160px;
     }
     
     .post-header {
@@ -64,7 +64,7 @@ a:hover {
     }
     
     .post-description {
-        padding-left: 210px;
+        padding-left: 170px;
     }
 }
 
@@ -88,4 +88,41 @@ a:hover {
     padding-bottom: 5px;
     padding-right: 5px;
     padding-left: 5px;
+}
+
+.recent-activity {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gold;
+    
+    h2 {
+        margin-bottom: 5px;
+    }
+    
+    .github-activity {
+        ul {
+            list-style: none;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            color: black;
+            
+            li {
+                padding-top: 5px;
+                padding-bottom: 5px;
+                background-color: skyblue;
+                color: black;
+            }
+        }
+        
+        a:link {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .github-date {
+            color: gray;
+            float: right;
+        }
+    }
 }

@@ -13,6 +13,7 @@ description: |
     and it is planned to be extended into a fully functioning site like <a href="http://saltybet.com/">SaltyBet</a> 
     by using a <strong>MEAN Stack</strong>.
 thumbnail_link: /assets/ff2sim_thumb.png
+github_link: https://github.com/LeeCombs/FF2_Monster_Sim
 ---
 
 # Overview

@@ -12,6 +12,7 @@ description: |
     It was developed using the 2D game engine <strong>HaxeFlixel</strong>, and is currently hosted on 
     Heroku <a href="https://floating-bayou-94012.herokuapp.com/">here</a> (give it a minute to spin up).
 thumbnail_link: /assets/ff1sim_thumb.png
+github_link: https://github.com/LeeCombs/FF1_Monster_Tourney
 ---
 
 # Overview

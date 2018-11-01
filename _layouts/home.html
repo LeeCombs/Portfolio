@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="home">
+    {%- if page.title -%}
+        <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    
+    <div class="home-intro">
+        <h2>Hello! My name is Lee Combs, and I'm an amateur coder.</h1>
+        Welcome to my online portfolio! This is where I'll share my skill set and projects I've been working on.
+    </div>
+    
+    {{ content }}
+    
+    <div class="recent-activity">
+        <h1>Recent Activity</h1>
+        <div class="project-activity">
+            <h2>Projects</h2>
+            Show most recently modified project card here
+        </div>
+        <div class="github-activity">
+            <h2>Github Activity</h2>
+            <!-- TODO: Make this dynamic -->
+            <ul>
+                <a href="https://github.com/LeeCombs/FF2_Monster_Sim/commit/cf5777efb6f92546bf34b70a42969f6a99bd0d53">
+                    <li>
+                        <strong>FF2_Monster_Sim:</strong>
+                        Database Hookup Start...
+                        <span class="github-date">{{ "2018-10-25T21:14:24Z" | date_to_long_string }}</span>
+                    </li>
+                </a>
+                <a href="https://github.com/LeeCombs/FF2_Monster_Sim/commit/b40dcdee38562d54061c86c8f89e54cc0794f8fa">
+                    <li>
+                        <strong>FF2_Monster_Sim:</strong>
+                        Scene Two Bug Fix, New Teams, Small Enemy Love...
+                        <span class="github-date">{{ "2018-10-19T20:50:22Z" | date_to_long_string }}</span>
+                    </li>
+                </a>
+            </ul>
+        </div><!-- github-activity end -->
+    </div><!-- recent-activity end -->
+    
+    <!--
+    {%- if site.posts.size > 0 -%}
+        {%- include posts.html -%}
+    {%- endif -%}
+    -->
+
+    <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</div>

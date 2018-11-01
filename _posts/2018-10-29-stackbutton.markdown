@@ -12,6 +12,7 @@ description: |
     It was made by a team of three: Myself as the Lead Developer, Curtis as the Team Lead, and Sheryll as the Project Manager.
 thumbnail_link: /assets/stackbutton_thumb.png
 published: false
+github_link: https://github.com/C3ICapstone/stackbutton
 ---
 
 # Overview
