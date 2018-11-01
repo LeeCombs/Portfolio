@@ -1,14 +1,14 @@
 {% for post in site.categories[page.category] %}
 <a href="{{ post.url | absolute_url }}">
-    <div class="project-card">
-        <img src="{{ post.thumbnail_link }}">
-        <h1>{{ post.title }}</h1>
-        <div>
-            <strong>Technologies:</strong> {{ post.technologies }}
-        </div>
-        <div>
-            <strong>Description:</strong> {{ post.short_description }}
-        </div>
+ <div class="project-card">
+    <img src="{{ post.thumbnail_link }}">
+    <h1>{{ post.title }}</h1>
+    <div>
+      <strong>Technologies:</strong> {{ post.technologies }}
     </div>
+    <div>
+      <strong>Description:</strong> {{ post.short_description }}
+    </div>
+  </div>
 </a>
 {% endfor %}

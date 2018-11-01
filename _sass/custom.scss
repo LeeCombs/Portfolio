@@ -1,157 +1,157 @@
 body {
-    background-color: forestgreen;
-    background-image: url(/assets/green_squares3.png);
+  background-color: forestgreen;
+  background-image: url(/assets/green_squares3.png);
 }
 
 .page-content {
-    .wrapper {
-        background-color: orange;
-    }
+  .wrapper {
+    background-color: orange;
+  }
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .project-card {
-    min-height: 100px;
-    width: inherit;
-    padding: 10px 10px 10px 10px;
-    
-    
-    img {
-        width: 100px;
-        height: 100px;
-        float: left;
-        box-shadow: 3px 3px 3px grey;
-        background-color: white;
-    }
-    
-    div {
-        padding-left: 120px;
-        color: black;
-    }
-    
-    h1 {
-        padding-left: 110px;
-        margin-bottom: 0;
-        color: black;
-    }
-    
-    .current {
-        color:red;
-    }
+  min-height: 100px;
+  width: inherit;
+  padding: 10px 10px 10px 10px;
+  
+  
+  img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    box-shadow: 3px 3px 3px grey;
+    background-color: white;
+  }
+  
+  div {
+    padding-left: 120px;
+    color: black;
+  }
+  
+  h1 {
+    padding-left: 110px;
+    margin-bottom: 0;
+    color: black;
+  }
+  
+  .current {
+    color:red;
+  }
 }
 
 .project-card:hover {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 .h-entry {
-    min-height: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-    img {
-        width: 150px;
-        height: 150px;
-        float: left;
-        box-shadow: 3px 3px 3px grey;
-        background-color: white;
-    }
-    
-    .post-title {
-        padding-left: 160px;
-    }
-    
-    .post-header {
-        margin-bottom: 5px;
-    }
-    
-    .post-description {
-        padding-left: 170px;
-    }
+  min-height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    box-shadow: 3px 3px 3px grey;
+    background-color: white;
+  }
+  
+  .post-title {
+    padding-left: 160px;
+  }
+  
+  .post-header {
+    margin-bottom: 5px;
+  }
+  
+  .post-description {
+    padding-left: 170px;
+  }
 }
 
 .post-content {
-    padding-top: 10px;
-    background-color: mediumpurple;
-    
-    h1 {
-        margin-bottom: 5px;
-    }
+  padding-top: 10px;
+  background-color: mediumpurple;
+  
+  h1 {
+    margin-bottom: 5px;
+  }
 }
 
 .category-description {
-    background-color: mediumvioletred;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-color: mediumvioletred;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .category-list {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .recent-activity {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: gold;
-    
-    .activity-content {
-        padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: gold;
+  
+  .activity-content {
+    padding-left: 10px;
+  }
+  
+  h2 {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .github-activity {
+    ul {
+      list-style: none;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      color: black;
+      
+      li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: skyblue;
+        color: black;
+      }
     }
     
-    h2 {
-        margin-bottom: 5px;
-        font-weight: bold;
+    a:link {
+      text-decoration: none;
+      color: black;
     }
     
-    .github-activity {
-        ul {
-            list-style: none;
-            margin-left: 10px;
-            margin-right: 10px;
-            margin-bottom: 5px;
-            color: black;
-            
-            li {
-                padding-top: 5px;
-                padding-bottom: 5px;
-                background-color: skyblue;
-                color: black;
-            }
-        }
-        
-        a:link {
-            text-decoration: none;
-            color: black;
-        }
-        
-        .github-date {
-            color: gray;
-            float: right;
-        }
+    .github-date {
+      color: gray;
+      float: right;
     }
+  }
 }
 
 .site-header {
-    .wrapper {
-        background-color: darkslategray;
-    }
-    
-    .site-title {
-        color: white;
-        font-weight: 400;
-    }
+  .wrapper {
+    background-color: darkslategray;
+  }
+  
+  .site-title {
+    color: white;
+    font-weight: 400;
+  }
 }
 
 .site-nav {
-    .trigger {
-        a {
-            color: white;
-        }
+  .trigger {
+    a {
+      color: white;
     }
+  }
 }

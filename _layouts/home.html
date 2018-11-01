@@ -3,49 +3,49 @@ layout: default
 ---
 
 <div class="home">
-    {%- if page.title -%}
-        <h1 class="page-heading">{{ page.title }}</h1>
-    {%- endif -%}
-    
-    <div class="home-intro">
-        <h2>Hello! My name is Lee Combs, and I'm an amateur coder.</h1>
-        Welcome to my online portfolio! This is where I'll share my skill set and projects I've been working on.
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  
+  <div class="home-intro">
+    <h2>Hello! My name is Lee Combs, and I'm an amateur coder.</h1>
+    Welcome to my online portfolio! This is where I'll share my skill set and projects I've been working on.
+  </div>
+  
+  {{ content }}
+  
+  <div class="recent-activity">
+    <h1>Recent Activity</h1>
+    <div class="activity-content">
+      <div class="project-activity">
+        <h2>Projects</h2>
+        {% for post in site.categories.projects limit:1 offset:1 %}
+          <a href="{{ post.url | absolute_url }}">
+            <div class="project-card">
+              <img src="{{ post.thumbnail_link }}">
+              <h1>{{ post.title }}</h1>
+              <div>
+                <strong>Technologies:</strong> {{ post.technologies }}
+              </div>
+              <div>
+                <strong>Description:</strong> {{ post.short_description }}
+              </div>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+      <div class="github-activity">
+        {%- include github_activity.html -%}
+      </div>
     </div>
-    
-    {{ content }}
-    
-    <div class="recent-activity">
-        <h1>Recent Activity</h1>
-        <div class="activity-content">
-            <div class="project-activity">
-                <h2>Projects</h2>
-                {% for post in site.categories.projects limit:1 offset:1 %}
-                    <a href="{{ post.url | absolute_url }}">
-                        <div class="project-card">
-                            <img src="{{ post.thumbnail_link }}">
-                            <h1>{{ post.title }}</h1>
-                            <div>
-                                <strong>Technologies:</strong> {{ post.technologies }}
-                            </div>
-                            <div>
-                                <strong>Description:</strong> {{ post.short_description }}
-                            </div>
-                        </div>
-                    </a>
-                {% endfor %}
-            </div>
-            <div class="github-activity">
-                {%- include github_activity.html -%}
-            </div>
-        </div>
-    </div><!-- recent-activity end -->
-    
-    <!--
-    {%- if site.posts.size > 0 -%}
-        {%- include posts.html -%}
-    {%- endif -%}
-    -->
+  </div><!-- recent-activity end -->
+  
+  <!--
+  {%- if site.posts.size > 0 -%}
+    {%- include posts.html -%}
+  {%- endif -%}
+  -->
 
-    <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 </div>
