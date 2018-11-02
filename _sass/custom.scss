@@ -3,6 +3,10 @@ body {
   background-image: url(/assets/green_squares3.png);
 }
 
+.wrapper {
+    max-width: 1000px;
+}
+
 .page-content {
 }
 
@@ -134,26 +138,35 @@ a:hover {
   }
 }
 
+/**
+ * Site Header
+ */
 .site-header {
-  border-top: 0px;
-  
-  .wrapper {
+    border-top: 0px;
     background-color: darkslategray;
-  }
-  
-  .site-title {
-    color: white;
-    font-weight: 400;
-  }
+
+
+    .site-title {
+        color: white;
+        font-weight: 400;
+    }
+    
+    .site-nav {
+        background-color: darkslategray;
+        
+        .menu-icon {
+            color: white;
+        }
+    }
+    
+    .page-link {
+        color: white;
+    }
 }
 
-.site-nav {
-  .trigger {
-    a {
-      color: white;
-    }
-  }
-}
+/**
+ * Site Footer
+ */
 
 .site-footer {
     .wrapper {
@@ -178,38 +191,46 @@ a:hover {
     }
 }
 
+/**
+ * About Page
+ */
+
 .about-page {
-    h1 {
-        margin-bottom: 5px;
-    }
     
     .about-sub-header {
         text-align: center;
         background-color: darkslategray;
         color: white;
         width: 100%;
+        
+        h1 {
+            margin-bottom: 0px;
+        }
     }
     
     .wrapper {
     }
     
     .profile-content {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 10px;
         background-color: white;
         color: black;
         text-align: left;
+        
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
     }
     
     .profile-image {
-        max-height: 250px;
         max-width: 250px;
         float: left;
         box-shadow: 3px 3px 3px grey;
-        margin-top: 10px;;
-        margin-bottom: 10px;;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 10px;
     }
 }
 
