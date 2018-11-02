@@ -175,7 +175,6 @@ a:hover {
     border-top: 0px;
     background-color: darkslategray;
 
-
     .site-title {
         color: white;
         font-weight: 400;
@@ -199,13 +198,13 @@ a:hover {
  */
 
 .site-footer {
-    .wrapper {
-        background-color: darkslategray;
-    }
+    padding: 10px 0;
+    background-color: darkslategray;
     
     .footer-heading {
         color: white;
         font-weight: 500;
+        margin-bottom: 10px;
     }
     
     .footer-col-wrapper {
