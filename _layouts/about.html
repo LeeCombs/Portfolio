@@ -6,11 +6,12 @@
         {%- include header.html -%}
         <main class="page-content" aria-label="Content">
           <div class="wrapper">
+            <div class="about-sub-header">
+              <h1>About</h1>
             <img src="/assets/profile_image.png" class="profile-image">
             <div class="profile-content">
-              <!-- -->
+              {{ content }}
             </div>
-            {{ content }}
           </div>
         </main>
         {%- include footer.html -%}

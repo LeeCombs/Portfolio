@@ -6,7 +6,7 @@ permalink: /about/
 
 # Who am I?
 
-I'm Lee Combs and I recently moved to London, Ontario. I'm looking to be part of a team that shares my interests and can help me start my career in programming.
+I'm Lee Combs and I recently moved to London, Ontario. I'm looking to be part of a team that shares my interests and a company that I can help succeed.
 
 # Programming background
 
