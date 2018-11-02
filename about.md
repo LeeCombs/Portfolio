@@ -1,12 +1,23 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 ---
 
-This is my portfolio site to show off my experience and skills. It houses descriptions and links to my projects, as well as any other
-relevant experience I can think of.
+# Who am I?
 
-Thanks for checking me out.
+I'm Lee Combs and I recently moved to London, Ontario. I'm looking to be part of a team that shares my interests and can help me start my career in programming.
 
-You can also find me on Github by following the link below!
+# Programming background
+
+I am a self-taught developer who got my start by pursuing an interest in game development. My first language was **Actionscript 3**, which I learned while tinkering with game code and using the **Flixel** framework.
+
+Since then I have received a Computer Systems Technology diploma from Camosun College and am looking to start my career. From there I have started a handful of projects in an attempt to learn new languages, and am most comfortable with **C#**. I have messed around a bit in **Haxe**, **Ruby**, **Go**, **Python**, **C**, and **C++**. You can check out my [projects page](http://leecombs.me/category/projects.html) to see more about my side projects.
+
+# Hobbies etc.
+
+Video games mainly. I got hooked early with the Nintendo, then the PlayStation, PC, Xbox. I have the current gen consoles and am playing Dragon Quest XI, Super Mario Odyssey, and The Division. I'm looking forward to Smash Ultimate, Kingdom Hearts 3, and Guacamelee 2! I'm also an avid board game fan and have been playing Takenoko, Catan, Rummikub, and Carcassonne.
+
+I've been getting back into reading and am currently working through Terry Pratchett's Disc World novels. I really enjoy Jack Whyte's books about the Camulod Chronicles, of which I first read Uther in high school.
+
+I recently adopted two animals! A 3 month old golden retriever named Zelda, and a 4 month old orange tabby named Cinder. Sleep has been hard to come by since they came into the house, but they're very much worth the effort (most of time).

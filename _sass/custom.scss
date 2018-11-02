@@ -155,3 +155,58 @@ a:hover {
     }
   }
 }
+
+.site-footer {
+    .wrapper {
+        background-color: darkslategray;
+    }
+    
+    .footer-heading {
+        color: white;
+        font-weight: 500;
+    }
+    
+    .footer-col-wrapper {
+        color: white;
+    }
+    
+    .social-media-list {
+        a {
+            .username {
+                color: deepskyblue;
+            }
+        }
+    }
+}
+
+.about-page {
+    background-color: purple;
+    
+    h1 {
+        margin-bottom: 5px;
+    }
+    
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .profile-image {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-height: 250px;
+        max-width: 250px;
+        float: left;
+    }
+}
+
+.profile-content {
+    
+}
+
+
+
+
+
