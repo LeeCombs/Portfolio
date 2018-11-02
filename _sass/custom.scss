@@ -96,10 +96,37 @@ a:hover {
   padding-left: 5px;
 }
 
+.sub-header {
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    width: 100%;
+
+    h1 {
+        margin-bottom: 0px;
+    }
+}
+
+/**
+ * Home
+ */
+.home {
+    background-color: white;
+    
+    .home-content {
+        padding: 10px;
+    }
+    
+    .home-intro {
+        h1 {
+            font-weight: 600;
+        }
+    }
+}
+
 .recent-activity {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: gold;
   
   .activity-content {
     padding-left: 10px;
@@ -119,10 +146,12 @@ a:hover {
       color: black;
       
       li {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        background-color: skyblue;
-        color: black;
+          padding: 5px;
+          color: black;
+      }
+        
+      li:hover {
+          background-color: lightgreen;
       }
     }
     
@@ -130,6 +159,7 @@ a:hover {
       text-decoration: none;
       color: black;
     }
+      
     
     .github-date {
       color: gray;
@@ -196,21 +226,6 @@ a:hover {
  */
 
 .about-page {
-    
-    .about-sub-header {
-        text-align: center;
-        background-color: darkslategray;
-        color: white;
-        width: 100%;
-        
-        h1 {
-            margin-bottom: 0px;
-        }
-    }
-    
-    .wrapper {
-    }
-    
     .profile-content {
         padding: 10px;
         background-color: white;
