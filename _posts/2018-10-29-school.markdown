@@ -7,6 +7,7 @@ permalink: /projects/School
 technologies: A whole bunch
 short_description: School description goes here
 thumbnail_link: /assets/school_thumb.png
+published: false
 ---
 
 This will house information about the School projects
