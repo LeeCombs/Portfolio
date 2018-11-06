@@ -2,19 +2,46 @@
 layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <img src=" {{ page.thumbnail_link}} ">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-  </header>
-  
-  <div class="post-description">
-    {{ page.description }}
-  <div>
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+    <!-- Post Header -->
+    <div class="post-header">
+        <img src="{{ page.thumbnail_link }}">
+        <h1 class="post-title p-name" itemprop="name headline">
+            {{ page.title | escape }}
+        </h1>
+        <div class="post-description">
+            {{ page.description }}
+        </div>
+        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+    </div>
+    
+    <!-- Github link and screenshots -->
+    <div style="background-color: darkslategray; padding: 10px;">
+        <!-- Display the github link, if one exists -->
+        {% if page.github_link %}
+        <div class="github-source">
+            <a href="{{ page.github_link }}">
+                <svg class="svg-icon">
+                    <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+                </svg>
+                <span style="color: lightskyblue">View the Source Code</span>
+            </a>
+        </div>
+        {% endif %}
+        
+        <!-- Display the project screenshots, if they exist -->
+        {% if page.images %}
+        <div class="project-image-gallery">
+            <ul>
+                {% for image in page.images %}
+                <a href="{{ image }}" target="_blank"><li><img src="{{ image }}"></li></a>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
 </article>
 
+<!-- Post Content -->
 <div class="post-content e-content" itemprop="articleBody">
-{{ content }}
+    {{ content }}
 </div>
