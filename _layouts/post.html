@@ -30,6 +30,9 @@ layout: default
         
         <!-- Display the project screenshots, if they exist -->
         {% if page.images %}
+        <span style="color: lightgray; font-style: italic; font-size: 12">
+            {{ page.images | size }} screenshots
+        </span>
         <div class="project-image-gallery">
             <ul>
                 {% for image in page.images %}
