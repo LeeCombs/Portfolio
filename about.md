@@ -16,7 +16,7 @@ Since then I have received a Computer Systems Technology diploma from Camosun Co
 
 # Hobbies etc.
 
-Video games mainly. I got hooked early with the Nintendo, then the PlayStation, PC, Xbox. I have the current gen consoles and am playing Dragon Quest XI, Super Mario Odyssey, and The Division. I'm looking forward to Smash Ultimate, Kingdom Hearts 3, and Guacamelee 2! I'm also an avid board game fan and have been playing Takenoko, Catan, Rummikub, and Carcassonne.
+Video games mainly. I got hooked early with the Nintendo, then the PlayStation, PC, Xbox. I have the current gen consoles and am playing Dragon Quest XI, Super Mario Odyssey, and The Division. I'm looking forward to Smash Ultimate, Kingdom Hearts 3, and Guacamelee 2! I'm also an avid board game fan and have been playing Takenoko, Catan, Rummikub, and Carcassonne. I'm currently the reigning champ of board games for in my house.
 
 I've been getting back into reading and am currently working through Terry Pratchett's Disc World novels. I really enjoy Jack Whyte's books about the Camulod Chronicles, of which I first read Uther in high school.
 
