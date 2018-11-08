@@ -6,8 +6,39 @@ categories: projects
 permalink: /projects/School
 technologies: A whole bunch
 short_description: School description goes here
+description: |
+  School's cool. <br/> 
+  Here's some projects I worked on during the program. <br/>
+  At least, the ones worth a small writeup. <br/>
 thumbnail_link: /assets/school_thumb.png
-published: false
 ---
 
-This will house information about the School projects
+# Stackbutton
+Stackbutton was a Camosun College Capstone project created over three months for Cloud Compass Computing.  The project was created to gain insight into creating a tool for DevOps to evaulate cloud resources. It was made by a team of three: Myself as the Lead Developer, Curtis as the Team Lead, and Sheryll as the Project Manager. It was developed using **Angular 2+**, **TypeScript**, **Node.js**, **Sails.js**, used **PatternFly** as the UI framework, and **Docker** to containerize it.
+
+You can see more about this project on its [project page](http://leecombs.me/projects/stackbutton.html).
+
+# Chance-It!
+Chance-It! was a game where the object of the game was to roll dice and gain an ever-increasing score, with the chance of losing ebverything. You could play against a local player, a local computer opponent, or with someone on a local network. The team completed the project ahead of schedule, and then won 'Best "AI" (Best If Statement Block)' among our peers when battling other team's computer opponents.
+
+It was a command line program developed in **C** by a team of four, with me as the Lead Developer. At the time I was the most comfortable with programming, so I initially wrote the main loop of the game, then moved onto working with each team member plan out and discuss their contributions to the project. Easily the best part of the project were the heated discussions about the architecture of the program, as well as getting each member of the team to create their own "AI" and pitting them against eachother to see how they held up.
+
+<span style="color: gray; font-style: italic; font-size: 12">3 screenshots</span>
+<div class="project-image-gallery">
+	<ul>
+		<a href="/assets/school/chanceit1.png" target="_blank"><li><img src="/assets/school/chanceit1.png"></li></a>
+		<a href="/assets/school/chanceit2.png" target="_blank"><li><img src="/assets/school/chanceit2.png"></li></a>
+		<a href="/assets/school/chanceit3.png" target="_blank"><li><img src="/assets/school/chanceit3.png"></li></a>
+	</ul>
+</div>
+
+# Comp 132 - Java
+Final project was creating a Hangman game in **Java**. I need to find the source code and hopefully make it run again. Take some pics...
+
+# Comp 157 - Win(dows applications?)
+Final Lab: .NET, C#, SQL, LINQ
+Lab 7: Memory game
+Lab 6: Xs and Os
+
+# Comp 140
+Pizza Palace Site: HTML, CSS, Bootstrap

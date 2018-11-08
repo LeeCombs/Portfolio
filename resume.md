@@ -10,6 +10,7 @@ To find and work with a great team to build great software and develop my skills
 # Highlights
 - Developed web-based applications using Angular2, TypeScript, HTML, CSS, PHP, and JavaScript/JQuery
 - Successfully queried databases using a combination of PHP, SQL, SQL*Plus, SQL Developer, and MySQL
+- Developing small side projects using C#, .NET, a MEAN stack, Unity, HaxeFlixel, MonoGame, and Go
 - Developed several applications among different teams of widely varying technical and communication skills
 - Designed and wrote user manuals, memos, and reports using Microsoft Word, Excel, and OpenOffice
 
