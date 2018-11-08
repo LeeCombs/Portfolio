@@ -308,3 +308,16 @@ a:hover {
         display: inline-block;
     }
 }
+
+.dated-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	
+	h2 {
+	}
+	
+	span {
+		color: gray;
+	}
+}

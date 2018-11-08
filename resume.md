@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 # Objective
-Get a job
+To find and work with a great team to build great software and develop my skills.
 
 # Highlights
 - Developed web-based applications using Angular2, TypeScript, HTML, CSS, PHP, and JavaScript/JQuery
@@ -33,7 +33,7 @@ Get a job
 - whole lot more
 
 # Work
-## Thrifty Foods 2009-2018
+<div class="dated-header"><h2>Thrifty Foods</h2><span>2009-2018</span></div>
 **File Maintenance**
 - Ensured product pricing and shelf tags were accurate and updated on a daily basis
 - Guided coworkers through the steps and programs necessary to complete File Maintenance tasks
@@ -59,6 +59,6 @@ Get a job
 - Provided excellent customer service in a fast-paced environment
 
 # Education
-**Camosun College**
+<div class="dated-header"><h2>Camosun College</h2><span>2015-2017</span></div>
 
-Computer Systems Technology Diploma, 2015-2017
+Computer Systems Technology Diploma
