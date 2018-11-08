@@ -4,7 +4,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1000px;
+  max-width: 1000px;
 }
 
 .page-content {
@@ -21,26 +21,26 @@ a:hover {
   
   
   img {
-    width: 100px;
-    height: 100px;
-    float: left;
-    box-shadow: 3px 3px 3px grey;
-    background-color: white;
+  width: 100px;
+  height: 100px;
+  float: left;
+  box-shadow: 3px 3px 3px grey;
+  background-color: white;
   }
   
   div {
-    padding-left: 120px;
-    color: black;
+  padding-left: 120px;
+  color: black;
   }
   
   h1 {
-    padding-left: 110px;
-    margin-bottom: 0;
-    color: black;
+  padding-left: 110px;
+  margin-bottom: 0;
+  color: black;
   }
   
   .current {
-    color:red;
+  color:red;
   }
 }
 
@@ -62,31 +62,31 @@ a:hover {
 }
 
 .sub-header {
-    text-align: center;
-    background-color: darkslategray;
-    color: white;
-    width: 100%;
+  text-align: center;
+  background-color: darkslategray;
+  color: white;
+  width: 100%;
 
-    h1 {
-        margin-bottom: 0px;
-    }
+  h1 {
+    margin-bottom: 0px;
+  }
 }
 
 /**
  * Home
  */
 .home {
-    background-color: white;
-    
-    .home-content {
-        padding: 10px;
+  background-color: white;
+  
+  .home-content {
+    padding: 10px;
+  }
+  
+  .home-intro {
+    h1 {
+      font-weight: 600;
     }
-    
-    .home-intro {
-        h1 {
-            font-weight: 600;
-        }
-    }
+  }
 }
 
 .recent-activity {
@@ -94,42 +94,42 @@ a:hover {
   padding-bottom: 10px;
   
   .activity-content {
-    padding-left: 10px;
+  	padding-left: 10px;
   }
   
   h2 {
-    margin-bottom: 5px;
-    font-weight: bold;
+		margin-bottom: 5px;
+		font-weight: bold;
   }
   
   .github-activity {
-    ul {
-      list-style: none;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 5px;
-      color: black;
-      
-      li {
-          padding: 5px;
-          color: black;
-      }
-        
-      li:hover {
-          background-color: lightgreen;
-      }
-    }
-    
-    a:link {
-      text-decoration: none;
-      color: black;
-    }
-      
-    
-    .github-date {
-      color: gray;
-      float: right;
-    }
+		ul {
+			list-style: none;
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-bottom: 5px;
+			color: black;
+
+			li {
+				padding: 5px;
+				color: black;
+			}
+
+			li:hover {
+				background-color: lightgreen;
+			}
+		}
+
+		a:link {
+			text-decoration: none;
+			color: black;
+		}
+
+
+		.github-date {
+			color: gray;
+			float: right;
+		}
   }
 }
 
@@ -137,25 +137,25 @@ a:hover {
  * Site Header
  */
 .site-header {
-    border-top: 0px;
-    background-color: darkslategray;
+  border-top: 0px;
+  background-color: darkslategray;
 
-    .site-title {
-        color: white;
-        font-weight: 400;
-    }
+  .site-title {
+    color: white;
+    font-weight: 400;
+  }
+  
+  .site-nav {
+    background-color: darkslategray;
     
-    .site-nav {
-        background-color: darkslategray;
-        
-        .menu-icon {
-            color: white;
-        }
+    .menu-icon {
+      color: white;
     }
-    
-    .page-link {
-        color: white;
-    }
+  }
+  
+  .page-link {
+    color: white;
+  }
 }
 
 /**
@@ -163,26 +163,26 @@ a:hover {
  */
 
 .site-footer {
-    padding: 10px 0;
-    background-color: darkslategray;
-    
-    .footer-heading {
-        color: white;
-        font-weight: 500;
-        margin-bottom: 10px;
+  padding: 10px 0;
+  background-color: darkslategray;
+  
+  .footer-heading {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col-wrapper {
+    color: white;
+  }
+  
+  .social-media-list {
+    a {
+      .username {
+        color: deepskyblue;
+      }
     }
-    
-    .footer-col-wrapper {
-        color: white;
-    }
-    
-    .social-media-list {
-        a {
-            .username {
-                color: deepskyblue;
-            }
-        }
-    }
+  }
 }
 
 /**
@@ -190,41 +190,41 @@ a:hover {
  */
 
 .about-page {
-    .profile-content {
-        padding: 10px;
-        background-color: white;
-        color: black;
-        text-align: left;
-        
-        h1 {
-            margin-bottom: 10px;
-            margin-top: 10x;
-            font-weight: bold;
-        }
-        
-        h2 {
-            margin-bottom: 0;
-            padding-left: 10px;
-            font-weight: 600;
-        }
-        
-        p {
-            margin-bottom: 5;
-            padding-left: 15px;
-        }
+  .profile-content {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    
+    h1 {
+      margin-bottom: 10px;
+      margin-top: 10x;
+      font-weight: bold;
     }
     
-    .profile-image {
-        max-width: 250px;
-        float: left;
-        box-shadow: 3px 3px 3px grey;
-        margin: 10px;
+    h2 {
+      margin-bottom: 0;
+      padding-left: 10px;
+      font-weight: 600;
     }
+    
+    p {
+      margin-bottom: 5;
+      padding-left: 15px;
+    }
+  }
+  
+  .profile-image {
+    max-width: 250px;
+    float: left;
+    box-shadow: 3px 3px 3px grey;
+    margin: 10px;
+  }
 }
 
 
 .profile-content {
-    
+  
 }
 
 /**
@@ -232,81 +232,82 @@ a:hover {
  */
 
 .post {
-    padding: 0;
+  padding: 0;
 }
 
 .post-header {
-    background-color: darkslategray;
-    color: white;
-    padding: 5px;
-    margin-bottom: 0px;
-    min-height: 150px;
+  background-color: darkslategray;
+  color: white;
+  padding: 5px;
+  margin-bottom: 0px;
+  min-height: 150px;
 }
 
 .post-description {
 }
 
 .post-source-and-images {
-    
+  
 }
 
 .post-content {
-    
-    padding: 5px;
-    padding-top: 0px;
-    background-color: white;
-    
-    h1 {
-        font-weight: bold;
-        margin-bottom: 0px;
-    }
-    
-    h3 {
-        padding-left: 10px;
-        margin-bottom: 5px;
-    }
-    
-    p {
-        padding-left: 20px;
-    }
+  
+  padding: 5px;
+  padding-top: 0px;
+  background-color: white;
+  
+  h1 {
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  
+  h3 {
+    padding-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    padding-left: 20px;
+  }
 }
 
 .h-entry {
   background-color: white;
   
   img {
-    max-height: 150px;
-    float: left;
-    box-shadow: 3px 3px 3px grey;
-    background-color: white;
+		max-height: 150px;
+		float: left;
+		box-shadow: 3px 3px 3px grey;
+		background-color: white;
   }
   
   .post-title {
-    padding-left: 160px;
+  	padding-left: 160px;
   }
   
   .post-description {
-    padding-left: 170px;
+  	padding-left: 170px;
   }
 }
 
 .project-image-gallery {
-    padding: 10px;
-    padding-bottom: 0;
-    ul {
-        list-style: none;
-        margin-left: 0px;
-    }
-    
-    img {
-        max-height: 100px;
-        max-width: 100px;
-    }
-    
-    li {
-        padding-right: 20px;
-        display: inline-block;
-    }
+  padding: 10px;
+  padding-bottom: 0;
+  
+	ul {
+    list-style: none;
+    margin-left: 0px;
+  }
+  
+  img {
+    max-height: 100px;
+    max-width: 100px;
+  }
+  
+  li {
+    padding-right: 20px;
+    display: inline-block;
+  }
 }
 
 .dated-header {

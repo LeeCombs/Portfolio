@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-    {%- include head.html -%}
-    <body>
-        {%- include header.html -%}
-        <main class="page-content" aria-label="Content">
-            <div class="wrapper about-page">
-                <div class="sub-header">
-                    <h1>About</h1>
-                </div>
-                <img src="/assets/profile_image.png" class="profile-image">
-                <div class="profile-content">
-                    {{ content }}
-                </div>
-            </div>
-        </main>
-        {%- include footer.html -%}
-    </body>
+  {%- include head.html -%}
+  <body>
+    {%- include header.html -%}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper about-page">
+        <div class="sub-header">
+          <h1>About</h1>
+        </div>
+        <img src="/assets/profile_image.png" class="profile-image">
+        <div class="profile-content">
+          {{ content }}
+        </div>
+      </div>
+    </main>
+    {%- include footer.html -%}
+  </body>
 </html>

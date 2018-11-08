@@ -4,46 +4,47 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
   
   <div class="sub-header">
-    <h1>Home</h1>
+  	<h1>Home</h1>
   </div>
+	
   <div class="home-content">
-    <div class="home-intro">
-        <h1>My name is Lee Combs, and I'm an amateur coder.</h1>
-        <p>
-            Welcome to my online portfolio! This is where I'll share my skill set and some projects that I've worked on, as well as give you an idea of what I'm about. You can read more about me in the <a href="about">About</a> section, and see my coding skills in action in the <a href="category/projects">Projects</a> section.
-        </p>
-        <p>You can also see what I've been working on recently below!</p>
-    </div>
-      
-    <div class="recent-activity">
-        <h1>Recent Activity</h1>
-        <div class="activity-content">
-            <div class="project-activity">
-                <h2>Projects</h2>
-                {% for post in site.categories.projects limit:1 offset:1 %}
-                <a href="{{ post.url | absolute_url }}">
-                    <div class="project-card">
-                        <img src="{{ post.thumbnail_link }}">
-                        <h1>{{ post.title }}</h1>
-                        <div>
-                        <strong>Technologies:</strong> {{ post.technologies }}
-                        </div>
-                        <div>
-                            <strong>Description:</strong> {{ post.short_description }}
-                        </div>
-                    </div>
-                </a>
-                {% endfor %}
-            </div>
-            <div class="github-activity">
-                {%- include github_activity.html -%}
-            </div>
-        </div>
-    </div><!-- end recent-activity -->   
-    <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  </div>
+		<div class="home-intro">
+			<h1>My name is Lee Combs, and I'm an amateur coder.</h1>
+			<p>
+				Welcome to my online portfolio! This is where I'll share my skill set and some projects that I've worked on, as well as give you an idea of what I'm about. You can read more about me in the <a href="about">About</a> section, and see my coding skills in action in the <a href="category/projects">Projects</a> section.
+			</p>
+			<p>You can also see what I've been working on recently below!</p>
+		</div>
+
+		<div class="recent-activity">
+			<h1>Recent Activity</h1>
+			<div class="activity-content">
+				<div class="project-activity">
+					<h2>Projects</h2>
+					{% for post in site.categories.projects limit:1 offset:1 %}
+					<a href="{{ post.url | absolute_url }}">
+						<div class="project-card">
+							<img src="{{ post.thumbnail_link }}">
+							<h1>{{ post.title }}</h1>
+							<div>
+							<strong>Technologies:</strong> {{ post.technologies }}
+							</div>
+							<div>
+								<strong>Description:</strong> {{ post.short_description }}
+							</div>
+						</div>
+					</a>
+					{% endfor %}
+				</div>
+				<div class="github-activity">
+					{%- include github_activity.html -%}
+				</div>
+			</div>
+		</div><!-- end recent-activity -->   
+		<p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  </div><!-- end home content -->
 </div>
