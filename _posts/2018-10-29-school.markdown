@@ -33,12 +33,52 @@ It was a command line program developed in **C** by a team of four, with me as t
 </div>
 
 # Comp 132 - Java
-Final project was creating a Hangman game in **Java**. I need to find the source code and hopefully make it run again. Take some pics...
+This course included creating basic **Java** applications mainly involving drawing things to the screen, or loading and editing pictures to create generated collages, and creating a virtual shopping cart and cash register, calculating the totals, determining change, and figuring out which denominations to pay out. The final project was to create a Hangman game that picked a random word from a supplied dictionary, or use a user-generated string as the input. It could be played with a single player, or with two players. Nothing fancy, but it got the basics of the java language explained.
 
-# Comp 157 - Win(dows applications?)
-Final Lab: .NET, C#, SQL, LINQ
-Lab 7: Memory game
-Lab 6: Xs and Os
+**TODO: Source code and pics go here, if I ever find them**
 
+
+# Comp 157 - Windows applications
+This course included creating Windows Applications using the **.NET** framework, and they were written in **C#**. Most of the labs involved creating Windows Forms to create the UI, while the rest relied simply on the console. Some labs involved using **SQL** and **LINQ** to query **SQL** databases, massaging the data as required, and displaying the information to the user as needed.
+
+### Final Lab
+A program was created that connected to and queried a Microsoft SQL Server database using Microsoft ADO.NET. We defined entity classes that held data retrieved from the databaes. We used **LINQ** to perform **SQL** queries against the database to populate these classes. 
+
+### Memory Game
+Simple game of memory written in **C#**. The player selects one of several grid size presets then, when the player starts the game, 6 blue squares will populate the grid, show for a second, then disappear. The player must memorize and find the blue squares amongst the grid. Two difficulty options are present to allow the player more time to memorize the positions.
+
+**TODO: Source code link goes here**
+
+<span style="color: gray; font-style: italic; font-size: 12">2 screenshots</span>
+<div class="project-image-gallery">
+	<ul>
+		<a href="/assets/school/memory1.gif" target="_blank"><li><img src="/assets/school/memory1.gif"></li></a>
+		<a href="/assets/school/memory2.png" target="_blank"><li><img src="/assets/school/memory2.png"></li></a>
+	</ul>
+</div>
+
+### Tic Tac Toe
+Simple Tic Tac Toe game written in **C#**. The obejct of the lab was to get us used to classes and event handlers.
+
+**TODO: Source code link goes here**
+
+<span style="color: gray; font-style: italic; font-size: 12">2 screenshots</span>
+<div class="project-image-gallery">
+	<ul>
+		<a href="/assets/school/xos1.png" target="_blank"><li><img src="/assets/school/xos1.png"></li></a>
+		<a href="/assets/school/xos2.png" target="_blank"><li><img src="/assets/school/xos2.png"></li></a>
+	</ul>
+</div>
+
+### Rich-Text and Web Browser
+Windows form GUI application that contains a simlpe rich-text editor and a web browser made using Visual Studio and **VB.NET**. The object of the lab is to practice VB.NET programming and UI developement.
+
+<span style="color: gray; font-style: italic; font-size: 12">2 screenshots</span>
+<div class="project-image-gallery">
+	<ul>
+		<a href="/assets/school/lab5-1.png" target="_blank"><li><img src="/assets/school/lab5-1.png"></li></a>
+		<a href="/assets/school/lab5-2.png" target="_blank"><li><img src="/assets/school/lab5-2.png"></li></a>
+	</ul>
+</div>
 # Comp 140
 Pizza Palace Site: HTML, CSS, Bootstrap
