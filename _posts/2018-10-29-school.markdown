@@ -4,12 +4,10 @@ title:  "School"
 date: 2018-10-29 19:59:49 -0400
 categories: projects
 permalink: /projects/School
-technologies: A whole bunch
-short_description: School description goes here
+technologies: Java, C, C#, .NET, Phyton, SQL, Assembly, etc.
+short_description: A handful of projects completed while earning my diploma is Computer Systems Technology at Camosun College.
 description: |
-  School's cool. <br/> 
-  Here's some projects I worked on during the program. <br/>
-  At least, the ones worth a small writeup. <br/>
+  Here is a handful of the more interesting projects I worked on while earning my diploma is Computer Systems Technology at Camosun College. Most of them are pretty surface level, and the more interesting ones were the group projects.
 thumbnail_link: /assets/school_thumb.png
 ---
 

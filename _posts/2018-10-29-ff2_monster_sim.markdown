@@ -17,10 +17,14 @@ github_link: https://github.com/LeeCombs/FF2_Monster_Sim
 ---
 
 # Overview
-Overview text
+The Final Fantasy 1 Monster Battle Simulator was made after making the FF1 simulator. I decided to used **C#** and **.NET** for the project. It is hooked into a local **MySQL** database and updates team data and battle results.
 
 # Challenges
-Challenges text
+- Even worse documentation
+
+- 128 Monsters
+
+- Writing Tests, validating data
 
 # The Take Away
 Take away

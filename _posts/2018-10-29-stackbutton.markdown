@@ -35,4 +35,4 @@ The project had a 3 month time frame. Initially, the sponsors were unable to dec
 During this time we were able to read through the existing code base, get a feel for AngularJS, and finish up a couple of TODOs left by the previous team. Our team was then able to quickly switch gears and move onto Angular 2 when the project's needs were changed. Having to learn two web front-ends within a short time frame was rough, but the team was able to pull it off successfully, while learning how to effectively communicate in a fast-paced environment.
 
 # The Take Away
-The take away
+StackButton proved to be a very fun project, mainly due to the experiences gained working with a like-minded team. From the entertaining debates of UI and design architecture, to producing the deliverables, StackButton was an interesting project to work on. The only shame was that there wasn't more time to bring everything together.
