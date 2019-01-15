@@ -5,7 +5,7 @@ date: 2018-10-29 19:59:49 -0400
 categories: projects
 permalink: /projects/ff2monstersim
 technologies: C#, MonoGame
-short_description: Final Fantasy 2 Monster Sim description goes here
+short_description: Final Fantasy 2 Monster Battle Simulator written in <strong>C#</strong> and <strong>.NET</strong>, and has a <strong>MySQL</strong> backend.
 description: |
   The Final Fantasy 2 Monster Sim recreates the original game's battle system
   then pits two teams of monsters against each other to see which would win. <br/>
