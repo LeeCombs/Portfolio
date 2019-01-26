@@ -98,42 +98,42 @@ a:hover {
   padding-bottom: 10px;
   
   .activity-content {
-  	padding-left: 10px;
+    padding-left: 10px;
   }
   
   h2 {
-		margin-bottom: 5px;
-		font-weight: bold;
+    margin-bottom: 5px;
+    font-weight: bold;
   }
   
   .github-activity {
-		ul {
-			list-style: none;
-			margin-left: 10px;
-			margin-right: 10px;
-			margin-bottom: 5px;
-			color: black;
+    ul {
+      list-style: none;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      color: black;
 
-			li {
-				padding: 5px;
-				color: black;
-			}
+      li {
+        padding: 5px;
+        color: black;
+      }
 
-			li:hover {
-				background-color: lightgreen;
-			}
-		}
+      li:hover {
+        background-color: lightgreen;
+      }
+    }
 
-		a:link {
-			text-decoration: none;
-			color: black;
-		}
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
 
 
-		.github-date {
-			color: gray;
-			float: right;
-		}
+    .github-date {
+      color: gray;
+      float: right;
+    }
   }
 }
 
@@ -206,7 +206,7 @@ a:hover {
   padding: 10px;
   padding-bottom: 0;
   
-	ul {
+  ul {
     list-style: none;
     margin-left: 0px;
   }
@@ -223,11 +223,11 @@ a:hover {
 }
 
 .dated-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-	
-	span {
-		color: gray;
-	}
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  
+  span {
+    color: gray;
+  }
 }
