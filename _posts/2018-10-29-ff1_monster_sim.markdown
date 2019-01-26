@@ -8,7 +8,7 @@ technologies: HaxeFlixel, Haxe, Heroku
 short_description: Final Fantasy 1 Monster Battle Simulator written in <strong>Haxe</strong> using the <strong>HaxeFlixel</strong> framework.
 description: |
   The Final Fantasy 1 Monster Sim recreates the original game's battle system then pits two teams of monsters against each other to see which would win. It was developed using the 2D game engine <strong>HaxeFlixel</strong>, and is currently hosted on 
-  Heroku <a href="https://floating-bayou-94012.herokuapp.com/">here</a> (give it a minute to spin up).
+  Heroku <a href="https://floating-bayou-94012.herokuapp.com/" onclick="ga('send','event','clicks','heroku-click','ff1-sim');">here</a> (give it a minute to spin up).
 thumbnail_link: /assets/ff1sim_thumb.png
 github_link: https://github.com/LeeCombs/FF1_Monster_Tourney
 images:

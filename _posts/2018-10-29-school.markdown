@@ -24,9 +24,9 @@ It was a command line program developed in **C** by a team of four, with me as t
 <span style="color: gray; font-style: italic; font-size: 12">3 screenshots</span>
 <div class="project-image-gallery">
 	<ul>
-		<a href="/assets/school/chanceit1.png" target="_blank"><li><img src="/assets/school/chanceit1.png"></li></a>
-		<a href="/assets/school/chanceit2.png" target="_blank"><li><img src="/assets/school/chanceit2.png"></li></a>
-		<a href="/assets/school/chanceit3.png" target="_blank"><li><img src="/assets/school/chanceit3.png"></li></a>
+		<a href="/assets/school/chanceit1.png" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', 'chanceit 1');"><li><img src="/assets/school/chanceit1.png"></li></a>
+		<a href="/assets/school/chanceit2.png" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', 'chanceit 2');"><li><img src="/assets/school/chanceit2.png"></li></a>
+		<a href="/assets/school/chanceit3.png" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', 'chanceit 3');"><li><img src="/assets/school/chanceit3.png"></li></a>
 	</ul>
 </div>
 
@@ -50,8 +50,8 @@ Simple game of memory written in **C#**. The player selects one of several grid 
 <span style="color: gray; font-style: italic; font-size: 12">2 screenshots</span>
 <div class="project-image-gallery">
 	<ul>
-		<a href="/assets/school/memory1.gif" target="_blank"><li><img src="/assets/school/memory1.gif"></li></a>
-		<a href="/assets/school/memory2.png" target="_blank"><li><img src="/assets/school/memory2.png"></li></a>
+		<a href="/assets/school/memory1.gif" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', 'memory 1');"><li><img src="/assets/school/memory1.gif"></li></a>
+		<a href="/assets/school/memory2.png" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', 'memory 2');"><li><img src="/assets/school/memory2.png"></li></a>
 	</ul>
 </div>
 
@@ -63,8 +63,8 @@ Simple Tic Tac Toe game written in **C#**. The obejct of the lab was to get us u
 <span style="color: gray; font-style: italic; font-size: 12">2 screenshots</span>
 <div class="project-image-gallery">
 	<ul>
-		<a href="/assets/school/xos1.png" target="_blank"><li><img src="/assets/school/xos1.png"></li></a>
-		<a href="/assets/school/xos2.png" target="_blank"><li><img src="/assets/school/xos2.png"></li></a>
+		<a href="/assets/school/xos1.png" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', 'xos 1');"><li><img src="/assets/school/xos1.png"></li></a>
+		<a href="/assets/school/xos2.png" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', 'xos 2');"><li><img src="/assets/school/xos2.png"></li></a>
 	</ul>
 </div>
 
@@ -74,8 +74,8 @@ Windows form GUI application that contains a simlpe rich-text editor and a web b
 <span style="color: gray; font-style: italic; font-size: 12">2 screenshots</span>
 <div class="project-image-gallery">
 	<ul>
-		<a href="/assets/school/lab5-1.png" target="_blank"><li><img src="/assets/school/lab5-1.png"></li></a>
-		<a href="/assets/school/lab5-2.png" target="_blank"><li><img src="/assets/school/lab5-2.png"></li></a>
+		<a href="/assets/school/lab5-1.png" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', 'lab5-1 1');"><li><img src="/assets/school/lab5-1.png"></li></a>
+		<a href="/assets/school/lab5-2.png" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', 'lab5-1 2');"><li><img src="/assets/school/lab5-2.png"></li></a>
 	</ul>
 </div>
 # Comp 140

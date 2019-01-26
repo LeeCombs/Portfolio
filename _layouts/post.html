@@ -24,7 +24,7 @@
             <!-- Display the github link, if one exists -->
             {% if page.github_link %}
               <div class="github-source">
-                <a href="{{ page.github_link }}">
+                <a href="{{ page.github_link }}" onclick="ga('send', 'event', 'clicks', 'github', '{{ page.title }}');" >
                   <svg class="svg-icon">
                     <use xlink:href="/assets/minima-social-icons.svg#github"></use>
                   </svg>
@@ -41,7 +41,9 @@
               <div class="project-image-gallery">
                 <ul>
                   {% for image in page.images %}
-                  <a href="{{ image }}" target="_blank"><li><img src="{{ image }}"></li></a>
+                    <a href="{{ image }}" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', '{{ image }}');">
+                      <li><img src="{{ image }}"></li>
+                    </a>
                   {% endfor %}
                 </ul>
               </div>
