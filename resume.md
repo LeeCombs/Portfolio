@@ -5,7 +5,7 @@ permalink: /resume
 ---
 
 # Objective
-To find and work with a great team to build great software and develop my skills.
+To find and work with a great team to build great software. To start my career as a software developer and create tools and sites that people find helpful and interesting. Eventually I'd like to manage my own team and spearhead a project, be it an interesting website, a fun video game, or something helpful.
 
 # Highlights
 - Developed web-based applications using Angular2, TypeScript, HTML, CSS, PHP, and JavaScript/JQuery
