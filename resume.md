@@ -1,7 +1,7 @@
 ---
-layout: resume
-title: "Resume"
-permalink: /resume/
+layout: default
+title: Resume
+permalink: /resume
 ---
 
 # Objective
@@ -60,6 +60,17 @@ To find and work with a great team to build great software and develop my skills
 - Provided excellent customer service in a fast-paced environment
 
 # Education
-<div class="dated-header"><h2>Camosun College</h2><span>2015-2017</span></div>
-
+<div class="dated-header">
+  <h2>Camosun College</h2>
+  <span>2015-2017</span>
+</div>
 Computer Systems Technology Diploma
+
+<div class="dated-header">
+  <h2>Edward Milne Community School</h2>
+  <span>A While Ago</span>
+</div>
+
+<p style="margin-bottom:0;">
+  High School Dipoma
+</p>

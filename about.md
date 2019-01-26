@@ -1,12 +1,20 @@
 ---
-layout: about
+layout: default
 title: About
-permalink: /about/
+permalink: /about
 ---
 
-# Who am I?
+<div class="about-intro" markdown="1">
 
-I'm Lee Combs and I recently moved to London, Ontario. I'm looking to start my career as a junior software developer.
+  <div class="profile-image">
+    <img src="/assets/profile_image.png">
+  </div>
+  
+  <h1>Who Am I?</h1>
+
+  I'm Lee Combs and I recently moved to London, Ontario. I'm looking to start my career as a junior software developer.
+
+</div>
 
 # Programming background
 
@@ -20,4 +28,6 @@ Video games mainly. I got hooked early with the Nintendo, then the PlayStation, 
 
 I've been getting back into reading and am currently working through Terry Pratchett's Disc World novels. I really enjoy Jack Whyte's books about the Camulod Chronicles, of which I first read Uther in high school.
 
-I recently adopted two animals! A 3 month old golden retriever named Zelda, and a 4 month old orange tabby named Cinder. Sleep has been hard to come by since they came into the house, but they're very much worth the effort (most of time).
+<p style="margin-bottom:0;">
+  I recently adopted two animals! A 3 month old golden retriever named Zelda, and a 4 month old orange tabby named Cinder. Sleep has been hard to come by since they came into the house, but they're very much worth the effort (most of time).
+</p>

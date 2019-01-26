@@ -23,11 +23,11 @@ For this project I settled with using a new version of a framework that I've use
 # Challenges
 The two biggest challenges for this project were finding good documentation on the original game's combat system, including the original glitches, as well as how much data I needed to find and write for all of the **128** monsters in the game. 
 
-## Scarce Documentation
+### Scarce Documentation
 
 Gathering the documentation for the systems for this game was a little difficult as there isn't a single place where everything necessary for this project existed. I was able to track down a few websites that held a lot of information, including various GameFAQs, GamerCorner, and a very helpful friend I found on the Final Fantasy 1 Randomizer Discord that was able to find me specific values for things like status effect chances, move sets, and the various underworking's of the series numerous glitches.
 
-## Small "Big" Data
+### Small "Big" Data
 
 While 128 entries isn't many, it was the first time I sat and parsed out and verified that much information.  Each entry contained an id, name, various combat stats, resistances, weaknesses, move sets, gold, exp, and a size.
 

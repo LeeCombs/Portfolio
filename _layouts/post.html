@@ -1,52 +1,60 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body>
+    {%- include header.html -%}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+        
+          <div class="post-header">
+            <img src="{{ page.thumbnail_link }}">
+            <h1 class="post-title p-name" itemprop="name headline">
+              {{ page.title | escape }}
+            </h1>
+            <div class="post-description">
+              {{ page.description }}
+            </div>
+            <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+          </div>
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <!-- Post Header -->
-  <div class="post-header">
-    <img src="{{ page.thumbnail_link }}">
-    <h1 class="post-title p-name" itemprop="name headline">
-      {{ page.title | escape }}
-    </h1>
-    <div class="post-description">
-      {{ page.description }}
-    </div>
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-  </div>
-  
-  <!-- Github link and screenshots -->
-  <div class="post-github-thumbs">
-		
-    <!-- Display the github link, if one exists -->
-    {% if page.github_link %}
-			<div class="github-source">
-				<a href="{{ page.github_link }}">
-					<svg class="svg-icon">
-						<use xlink:href="/assets/minima-social-icons.svg#github"></use>
-					</svg>
-					<span style="color: lightskyblue">View the Source Code</span>
-				</a>
-			</div>
-    {% endif %}
-    
-    <!-- Display the project screenshots, if they exist -->
-    {% if page.images %}
-			<span style="color: lightgray; font-style: italic; font-size: 12">
-				{{ page.images | size }} screenshots
-			</span>
-			<div class="project-image-gallery">
-				<ul>
-					{% for image in page.images %}
-					<a href="{{ image }}" target="_blank"><li><img src="{{ image }}"></li></a>
-					{% endfor %}
-				</ul>
-			</div>
-    {% endif %}
-  </div>
+          <!-- Github link and screenshots -->
+          <div class="post-github-thumbs">
 
-	<!-- Post Content -->
-	<div class="post-content e-content" itemprop="articleBody">
-		{{ content }}
-	</div>
-</article>
+            <!-- Display the github link, if one exists -->
+            {% if page.github_link %}
+              <div class="github-source">
+                <a href="{{ page.github_link }}">
+                  <svg class="svg-icon">
+                    <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+                  </svg>
+                  <span style="color: lightskyblue">View the Source Code</span>
+                </a>
+              </div>
+            {% endif %}
+
+            <!-- Display the project screenshots, if they exist -->
+            {% if page.images %}
+              <span style="color: lightgray; font-style: italic; font-size: 12">
+                {{ page.images | size }} screenshots
+              </span>
+              <div class="project-image-gallery">
+                <ul>
+                  {% for image in page.images %}
+                  <a href="{{ image }}" target="_blank"><li><img src="{{ image }}"></li></a>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+          </div><!-- End Github Thumbs -->
+
+          <div class="post-content e-content" itemprop="articleBody">
+            {{ content }}
+          </div>
+          
+        </article>
+      </div>
+    </main>
+    {%- include footer.html -%}
+  </body>
+</html>
