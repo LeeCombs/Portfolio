@@ -1,6 +1,6 @@
 body {
   background-color: forestgreen;
-  background-image: url(/assets/green_squares3.png);
+  background-image: url(/assets/green_squares.png);
 }
 
 .wrapper {
@@ -62,9 +62,13 @@ a:hover {
 }
 
 .sub-header {
-  text-align: center;
   background-color: darkslategray;
+  background-image: url(/assets/dark_green_squares.png);
+	
+  text-align: center;
   color: white;
+	font-size: 28px;
+	
   width: 100%;
 
   h1 {
@@ -139,6 +143,7 @@ a:hover {
 .site-header {
   border-top: 0px;
   background-color: darkslategray;
+  background-image: url(/assets/dark_green_squares.png);
 
   .site-title {
     color: white;
@@ -146,8 +151,6 @@ a:hover {
   }
   
   .site-nav {
-    background-color: darkslategray;
-    
     .menu-icon {
       color: white;
     }
@@ -165,6 +168,7 @@ a:hover {
 .site-footer {
   padding: 10px 0;
   background-color: darkslategray;
+  background-image: url(/assets/dark_green_squares.png);
   
   .footer-heading {
     color: white;
@@ -227,68 +231,6 @@ a:hover {
   
 }
 
-/**
- * Posts
- */
-
-.post {
-  padding: 0;
-}
-
-.post-header {
-  background-color: darkslategray;
-  color: white;
-  padding: 5px;
-  margin-bottom: 0px;
-  min-height: 150px;
-}
-
-.post-description {
-}
-
-.post-source-and-images {
-  
-}
-
-.post-content {
-  
-  padding: 5px;
-  padding-top: 0px;
-  background-color: white;
-  
-  h1 {
-    font-weight: bold;
-    margin-bottom: 0px;
-  }
-  
-  h3 {
-    padding-left: 10px;
-    margin-bottom: 5px;
-  }
-  
-  p {
-    padding-left: 20px;
-  }
-}
-
-.h-entry {
-  background-color: white;
-  
-  img {
-		max-height: 150px;
-		float: left;
-		box-shadow: 3px 3px 3px grey;
-		background-color: white;
-  }
-  
-  .post-title {
-  	padding-left: 160px;
-  }
-  
-  .post-description {
-  	padding-left: 170px;
-  }
-}
 
 .project-image-gallery {
   padding: 10px;
