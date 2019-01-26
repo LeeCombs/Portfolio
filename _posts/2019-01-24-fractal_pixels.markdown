@@ -8,6 +8,8 @@ technologies: Jekyll, Liquid, CSS, HTML, Markdown
 short_description: Personal blog site that covers game and software development, but mostly game related
 description: |
     Fractal Pixels aims to be an independent game developer’s site that will hopefully host my game(s) and development blog! While it’s a little barren now, expect content ranging from tutorials to my experiences of learning how to develop games.
+    <br>
+    You can see it in action here: <a href="https://fractalpixels.com/">Fractal Pixels Home Page</a>
 thumbnail_link: /assets/fractalpixels/fplogo.png
 github_link: https://github.com/LeeCombs/LeeCombs.github.io
 images:
