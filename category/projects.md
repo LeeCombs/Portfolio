@@ -7,7 +7,7 @@ category: projects
 <div class="intro-blurb" markdown="1">
   Here is where I'll showcase some of the projects I've been working on. They'll range from school projects, to personal projects, and hopefully soon to professional projects. Currently though it's mainly personal projects, with some school stuff as well.
 
-  I'll cover what the projects are are, what I learned, and any challenges or other fun stuff happened during them.
+  I'll cover what the projects are, what I learned, and any challenges or other fun stuff happened during them.
 </div>
 
 <div class="category-list">

@@ -24,18 +24,18 @@
             <!-- Display the github link, if one exists -->
             {% if page.github_link %}
               <div class="github-source">
-                <a href="{{ page.github_link }}" onclick="ga('send', 'event', 'clicks', 'github', '{{ page.title }}');" >
+                <a href="{{ page.github_link }}" onclick="ga('send', 'event', 'clicks', 'github', '{{ page.title }}');" target="_blank">
                   <svg class="svg-icon">
                     <use xlink:href="/assets/minima-social-icons.svg#github"></use>
                   </svg>
-                  <span style="color: lightskyblue">View the Source Code</span>
+                  View the Source Code
                 </a>
               </div>
             {% endif %}
 
             <!-- Display the project screenshots, if they exist -->
             {% if page.images %}
-              <span style="color: lightgray; font-style: italic; font-size: 12">
+              <span class="screen-shot-count">
                 {{ page.images | size }} screenshots
               </span>
               <div class="project-image-gallery">

@@ -15,6 +15,12 @@
 
       <div class="footer-col footer-col-2">
         {%- include social.html -%}
+        <p class="rss-subscribe">
+            Subscribe
+            <a href="{{ "/feed.xml" | relative_url }}" onclick="ga('send', 'event', 'clicks', 'rss subscribe');" >
+              via RSS
+            </a>
+          </p>
       </div>
 
       <div class="footer-col footer-col-3">

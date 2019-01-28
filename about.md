@@ -12,7 +12,7 @@ permalink: /about
   
   <h1>Who Am I?</h1>
 
-  I'm Lee Combs and I recently moved to London, Ontario. I'm looking to start my career as a junior software developer.
+  I'm Lee Combs and I recently moved to London, Ontario. I'm looking to start my career as a software developer. I'm into gaming, reading, traveling, board games, and I recently got dog and a cat!
 
 </div>
 
