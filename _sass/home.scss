@@ -1,0 +1,42 @@
+.recent-activity {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  .activity-content {
+    padding-left: 10px;
+  }
+  
+  h2 {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .github-activity {
+    ul {
+      list-style: none;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      color: black;
+
+      li {
+        padding: 5px;
+        color: black;
+      }
+
+      li:hover {
+        background-color: lightgreen;
+      }
+    }
+
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
+
+    .github-date {
+      color: gray;
+      float: right;
+    }
+  }
+}

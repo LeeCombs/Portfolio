@@ -1,6 +1,16 @@
+:root {
+  --bg1-color: forestgreen;
+  --bg1-image: url(/assets/green_squares.png);
+  
+  --bg2-color: darkslategray;
+  --bg2-image: url(/assets/dark_green_squares.png);
+  
+  --hyper-link-color: lightskyblue;
+}
+
 body {
-  background-color: forestgreen;
-  background-image: url(/assets/green_squares.png);
+  background-color: var(--bg1-color);
+  background-image: var(--bg1-image);
 }
 
 .wrapper {
@@ -9,8 +19,8 @@ body {
 
 .page-content {
   .wrapper {
-    background-color: darkslategray;
-    background-image: url(/assets/dark_green_squares.png);
+    background-color: var(--bg2-color);
+    background-image: var(--bg2-image);
     border: solid;
     border-color: white;
     border-width: 1px;
@@ -21,7 +31,6 @@ body {
     text-align: center;
     color: white;
     font-size: 28px;
-
     width: 100%;
 
     h1 {
@@ -39,111 +48,27 @@ body {
     background-color: white;
     padding: 0 5px;
   }
-  
+}
+
+a {
+  color: var(--hyper-link-color);
+}
+
+a:visited {
+  color: var(--hyper-link-color);
 }
 
 a:hover {
   text-decoration: none;
 }
 
-.project-card {
-  min-height: 100px;
-  width: inherit;
-  padding: 10px 10px 10px 10px;
-  
-  
-  img {
-  width: 100px;
-  height: 100px;
-  float: left;
-  box-shadow: 3px 3px 3px grey;
-  background-color: white;
-  }
-  
-  div {
-  padding-left: 120px;
-  color: black;
-  }
-  
-  h1 {
-  padding-left: 110px;
-  margin-bottom: 0;
-  color: black;
-  }
-  
-  .current {
-  color:red;
-  }
-}
-
-.project-card:hover {
-  background-color: lightgreen;
-}
-
-.category-description {
-  background-color: mediumvioletred;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.category-list {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 5px;
-  padding-left: 5px;
-}
-
-.recent-activity {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  
-  .activity-content {
-    padding-left: 10px;
-  }
-  
-  h2 {
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  .github-activity {
-    ul {
-      list-style: none;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 5px;
-      color: black;
-
-      li {
-        padding: 5px;
-        color: black;
-      }
-
-      li:hover {
-        background-color: lightgreen;
-      }
-    }
-
-    a:link {
-      text-decoration: none;
-      color: black;
-    }
-
-
-    .github-date {
-      color: gray;
-      float: right;
-    }
-  }
-}
-
 /**
  * Site Header
  */
 .site-header {
+  background-color: var(--bg2-color);
+  background-image: var(--bg2-image);
   border-top: 0px;
-  background-color: darkslategray;
-  background-image: url(/assets/dark_green_squares.png);
 
   .site-title {
     color: white;
@@ -165,9 +90,9 @@ a:hover {
  * Site Footer
  */
 .site-footer {
+  background-color: var(--bg2-color);
+  background-image: var(--bg2-image);
   padding: 10px 0;
-  background-color: darkslategray;
-  background-image: url(/assets/dark_green_squares.png);
   
   .footer-heading {
     color: white;
@@ -182,7 +107,7 @@ a:hover {
   .social-media-list {
     a {
       .username {
-        color: deepskyblue;
+        color: var(--hyper-link-color);
       }
     }
   }
@@ -201,27 +126,6 @@ a:hover {
 /**
  * Misc
  */
-
-.project-image-gallery {
-  padding: 10px;
-  padding-bottom: 0;
-  
-  ul {
-    list-style: none;
-    margin-left: 0px;
-  }
-  
-  img {
-    max-height: 100px;
-    max-width: 100px;
-  }
-  
-  li {
-    padding-right: 20px;
-    display: inline-block;
-  }
-}
-
 .dated-header {
   display: flex;
   justify-content: space-between;

@@ -1,6 +1,6 @@
 .post {
-  background-color: darkslategray;
-  background-image: url(/assets/dark_green_squares.png);
+  background-color: var(--bg2-color);
+  background-image: var(--bg2-image);
   border: solid;
   border-color: white;
   border-width: 1px;
@@ -31,10 +31,6 @@
     
     .post-description {
       padding-left: 10px;
-      
-      a {
-        color: lightskyblue;
-      }
     }
   }
   
@@ -45,18 +41,17 @@
   .post-content {
     padding: 5px;
     padding-top: 0px;
-    background-color: white;
     margin-bottom: 0;
+    background-color: white;
 
     h1 {
-      text-align: center;
-      font-weight: bold;
-      font-size: 32px;
-      
       padding: 5px;
       margin-bottom: 0px;
       border-top: solid;
       border-width: 1px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 32px;
     }
 
     h3 {
