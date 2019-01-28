@@ -3,6 +3,8 @@
   <div class="wrapper">
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
     <div class="footer-col-wrapper">
+      
+      <!-- Contact List -->
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           {%- if site.email -%}
@@ -13,16 +15,19 @@
         </ul>
       </div>
 
+      <!-- Social Links -->
       <div class="footer-col footer-col-2">
         {%- include social.html -%}
-        <p class="rss-subscribe">
-            Subscribe
-            <a href="{{ "/feed.xml" | relative_url }}" onclick="ga('send', 'event', 'clicks', 'rss subscribe');" >
-              via RSS
-            </a>
-          </p>
+        <!-- RSS Subscribe -->
+        <p class="feed-subscribe">
+          <svg class="svg-icon">
+            <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+          </svg>
+          <a href="{{ "/feed.xml" | relative_url }}">Subscribe</a>
+        </p>
       </div>
-
+      
+      <!-- Site Description -->
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
       </div>
