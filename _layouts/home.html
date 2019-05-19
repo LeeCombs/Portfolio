@@ -5,22 +5,84 @@
     {%- include header.html -%}
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="sub-header">
-          <h1>Home</h1>
+        
+        <!-- Intro Header -->
+        <div class="row section" id="intro-header">
+          <div class="content">
+            <div class="col profile-image">
+              <img src="/assets/profile_image.png">
+            </div>
+            <div class="col intro-header">
+              <div class="row greeting">
+                <h1>My name is Lee Combs</h1>
+                <p>And I'm an amateur coder</p>
+              </div>
+              <div class="row line-break"></div>
+            </div>
+          </div>
         </div>
         
-        <div class="profile-content">
-          <div class="intro-blurb">
-            <h1>My name is Lee Combs, and I'm an amateur coder.</h1>
-            <p>
-              Welcome to my online portfolio! This is where I'll share my skill set and some projects that I've worked on, as well as give you an idea of what I'm about. You can read more about me in the <a href="about">About</a> section, and see my coding skills in action in the <a href="category/projects">Projects</a> section.
-            </p>
-            <p>You can also see what I've been working on recently below!</p>
+        <!-- About -->
+        <div class="row section" id="about">
+          <div class="content">
+            <div class="row">
+              <h1>A Little Bit About Me</h1>
+            </div>
+            <div class="row">
+              <p>I’m Lee Combs and I recently moved to London, Ontario and I’m looking to start my career as a software developer. I’m into gaming, reading, traveling, board games, and I recently got a dog (Zelda) and a cat (Cinder)!</p>
+              <p>I am a self-taught developer who got my start by pursuing an interest in game development, my first language being <strong>Actionscript 3</strong>. Since then I have received a Computer Systems Technology diploma from Camosun College, and have started a handful of projects in an attempt to learn new languages.</p>
+            </div>
+            <div class="row">
+              <button>Read More</button>
+            </div>
           </div>
-
-          {% include recent_activity.html %}
-
-        </div><!-- end home content -->
+        </div>
+        
+        <!-- Recent Activity -->
+        <div class="row section" id="recent-activity">
+          <div class="content">
+            <div class="row">
+              <div class="col">
+                <h1>Recent Activity</h1>
+                <p>Here are some things that I have been working on recently. My biggest project most recently is Fractal Pixels, which is my site for game development tutorials that I write up while learning <strong>C#</strong> and <strong>Unity</strong>. It currently gets double digit views every day! I'm also working on recreating site layouts to brush up on HTML, CSS, and JS, and that's all on CodePen.</p>
+              </div>
+            </div>
+            <div class="row">
+              {%- include recent_activity.html -%}
+            </div>
+          </div>
+        </div>
+        
+        <!-- Work Experience -->
+        <div class="row section" id="work-experience">
+          <div clas="content">
+            <div class="row">
+              <h1>Work Experience</h1>
+            </div>
+            <div class="row">
+              <p>ALL GROCERY ALL THE TIME</p>
+            </div>
+            <div class="row">
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact -->
+        <div class="row section" id="contact">
+          <div class="content">
+            <div class="row">
+              <h1>Contact Me</h1>
+            </div>
+            <div class="row">
+              <p>Email form submission</p>
+            </div>
+            <div class="row">
+              <button>Submit</button>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </main>
     {%- include footer.html -%}

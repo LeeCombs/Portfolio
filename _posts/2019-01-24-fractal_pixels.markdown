@@ -20,13 +20,13 @@ images:
 ---
 
 # Overview
-I made this site to serve as a base for my game development as well as various tutorials I've written while learning different things, from installing frameworks to creating Unity UI elements. It, like this site, is hosted on Github and is powered by **Jekyll**, which uses **Liquid**, **Markdown**, **CSS**, and **HTML**.
+I made this site to serve as a base for my game development as well as various tutorials I've written while learning different things, from installing frameworks to creating Unity UI elements. It, like this site, is hosted on GitHub and is powered by **Jekyll**, which uses **Liquid**, **Markdown**, **CSS**, and **HTML**.
 
-Recently the site has "boomed" to double-digit dailt viewers, up from single-digit viewership! 
+Recently the site has "boomed" to double-digit daily viewers, up from single-digit viewership! 
 
 # Challenges
 
-Not many so far, mainly just getting the page setup on Github, and learning how Jekyll works. The biggest issue so far with setup was getting https to work nicely.
+Not many so far, mainly just getting the page setup on GitHub, and learning how Jekyll works. The biggest issue so far with setup was getting https to work nicely.
 
 Apart from that, determining content for the site has proved a challenge. Trying to figure out what I think might be useful to the public is difficult, so I've moved onto more simply writing guides for myself instead, and then hope that other people find value in it.
 

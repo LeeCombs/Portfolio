@@ -1,3 +1,44 @@
+.intro-header {
+  color: white;
+  padding-left: 15px;
+  
+  p {
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 5px;
+  }
+  
+  .greeting {
+    justify-content: flex-start;
+  }
+}
+
+#intro-header {
+  background-image: url("https://i.imgur.com/he6iPen.jpg");
+  padding: 30px 0;
+}
+
+#recent-activity, #contact {
+  background-image: url("/assets/green_squares.png");
+}
+
+#about, #work-experience {
+  color: white;
+}
+
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.line-break {
+  border-bottom: 1px solid white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .recent-activity {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -35,7 +76,7 @@
     }
 
     .github-date {
-      color: gray;
+      color: white;
       float: right;
     }
   }
