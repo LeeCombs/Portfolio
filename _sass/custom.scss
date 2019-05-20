@@ -9,8 +9,6 @@
 }
 
 body {
-  background-color: var(--bg1-color);
-  background-image: var(--bg1-image);
 }
 
 .wrapper {
@@ -41,20 +39,33 @@ body {
 }
 
 .content {
-  width: 800px;
+  width: 850px;
 }
 
 /**
  * Site-specific
  */
 
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+
+.parallax {
+  background-image: url("https://i.imgur.com/he6iPen.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .page-content {
   padding: 0;
   margin: 0;
   
   .wrapper {
-    background-color: var(--bg2-color);
-    background-image: var(--bg2-image);
     padding: 0;
   }
   
