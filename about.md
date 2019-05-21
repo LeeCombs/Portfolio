@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about
+
 ---
 
 <div class="about-intro" markdown="1">
