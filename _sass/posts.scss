@@ -43,7 +43,8 @@
 
     h1 {
       padding: 5px;
-      margin-bottom: 0px;
+      margin-bottom: 15px;
+      border-bottom: solid;
       border-top: solid;
       border-width: 1px;
       text-align: center;
@@ -61,4 +62,12 @@
       padding-left: 20px;
     }
   }
+}
+
+/**
+ * Testing
+ */ 
+
+.project-header {
+  padding-top: 10px;
 }

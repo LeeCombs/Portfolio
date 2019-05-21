@@ -4,54 +4,62 @@
   <body>
     {%- include header.html -%}
     <main class="page-content" aria-label="Content">
-      <div class="wrapper content">
+      <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-        
-          <div class="post-header">
-            <img src="{{ page.thumbnail_link }}">
-            <h1 class="post-title p-name" itemprop="name headline">
-              {{ page.title | escape }}
-            </h1>
-            <div class="post-description">
-              {{ page.description }}
-            </div>
-            <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-          </div>
-
-          <!-- Github link and screenshots -->
-          <div class="post-github-thumbs">
-
-            <!-- Display the github link, if one exists -->
-            {% if page.github_link %}
-              <div class="github-source">
-                <a href="{{ page.github_link }}" onclick="ga('send', 'event', 'clicks', 'github', '{{ page.title }}');" target="_blank">
-                  <svg class="svg-icon">
-                    <use xlink:href="/assets/minima-social-icons.svg#github"></use>
-                  </svg>
-                  View the Source Code
-                </a>
+          
+          <!-- Project Header -->
+          <div class="row project-header imaged-backdrop">
+            <div class="content">
+              <div class="post-header">
+                <img src="{{ page.thumbnail_link }}">
+                <h1 class="post-title p-name" itemprop="name headline">
+                  {{ page.title | escape }}
+                </h1>
+                <div class="post-description">
+                  {{ page.description }}
+                </div>
+                <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
               </div>
-            {% endif %}
 
-            <!-- Display the project screenshots, if they exist -->
-            {% if page.images %}
-              <span class="screen-shot-count">
-                {{ page.images | size }} screenshots
-              </span>
-              <div class="project-image-gallery">
-                <ul>
-                  {% for image in page.images %}
-                    <a href="{{ image }}" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', '{{ image }}');">
-                      <li><img src="{{ image }}"></li>
+              <!-- Github link and screenshots -->
+              <div class="post-github-thumbs">
+
+                <!-- Display the github link, if one exists -->
+                {% if page.github_link %}
+                  <div class="github-source">
+                    <a href="{{ page.github_link }}" onclick="ga('send', 'event', 'clicks', 'github', '{{ page.title }}');" target="_blank">
+                      <svg class="svg-icon">
+                        <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+                      </svg>
+                      View the Source Code
                     </a>
-                  {% endfor %}
-                </ul>
-              </div>
-            {% endif %}
-          </div><!-- End Github Thumbs -->
+                  </div>
+                {% endif %}
 
-          <div class="post-content e-content" itemprop="articleBody">
-            {{ content }}
+                <!-- Display the project screenshots, if they exist -->
+                {% if page.images %}
+                  <span class="screen-shot-count">
+                    {{ page.images | size }} screenshot(s)
+                  </span>
+                  <div class="project-image-gallery">
+                    <ul>
+                      {% for image in page.images %}
+                        <a href="{{ image }}" target="_blank" onclick="ga('send', 'event', 'clicks', 'screenshot', '{{ image }}');">
+                          <li><img src="{{ image }}"></li>
+                        </a>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endif %}
+              </div><!-- End Github Thumbs -->
+            </div>
+          </div> <!-- End Project Header -->
+          
+          <!-- Post Content Content Content -->
+          <div class="post-content e-content light-backdrop row" itemprop="articleBody">
+            <div class="content">
+              {{ content }}
+            </div>
           </div>
           
         </article>
