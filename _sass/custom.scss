@@ -19,6 +19,7 @@ body {
 }
 
 .content {
+  width: 900px;
   max-width: 900px;
 }
 
@@ -40,19 +41,23 @@ body {
   justify-content: center;
 }
 
-.content {
-  width: 850px;
-}
-
 /**
  * Site-specific
  */
 
+.dark-backdrop {
+  color: white;
+  background-image: url("/assets/dark_green_squares.png");
+}
 
-.social-icon {
-  width: 20px;
-  height: 20px;
-  padding-right: 10px;
+.light-backdrop {
+  color: black;
+  background-image: url("/assets/green_squares.png");
+}
+
+.imaged-backdrop {
+  background-image: url("https://i.imgur.com/he6iPen.jpg");
+  color: white;
 }
 
 .parallax {
@@ -75,7 +80,6 @@ body {
     text-align: center;
     color: white;
     font-size: 28px;
-    width: 100%;
 
     h1 {
       margin-bottom: 0px;
@@ -109,6 +113,7 @@ a:hover {
 /**
  * Site Header
  */
+
 .site-header {
   background-color: var(--bg2-color);
   background-image: var(--bg2-image);
@@ -133,6 +138,7 @@ a:hover {
 /**
  * Site Footer
  */
+
 .site-footer {
   background-color: var(--bg2-color);
   background-image: var(--bg2-image);
@@ -160,6 +166,7 @@ a:hover {
 /**
  * About Page
  */
+
 .profile-image {
   max-width: 250px;
   float: left;
@@ -170,6 +177,7 @@ a:hover {
 /**
  * Misc
  */
+
 .dated-header {
   display: flex;
   justify-content: space-between;
@@ -184,4 +192,10 @@ a:hover {
   color: gray;
   font-style: italic;
   font-size: 12;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
 }
