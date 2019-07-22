@@ -3,35 +3,66 @@
   {%- include head.html -%}
   <body>
     <div class="row imaged-background" id="site-wrapper">
-      <div class="col" id="personal-info">
+      
+      <!-- Profile Information -->
+      <div class="col profile" id="profile-info">
         <!-- View for information about me: pretty face, name, nav and social links -->
         <!-- Collapsable -->
+        
+        <div class="row profile-image">
+          <img src="/assets/profile_image.png">
+        </div>
+        
+        <div class="row" id="profile-name">
+          <h1>Lee Combs</h1>
+        </div>
+        
+        <div class="row" id="profile-intro">
+          <p>I'm an amateur coder</p>
+        </div>
+        
+        <!-- Nav Links -->
         <div class="row">
-          <!-- Face -->
+          <ul class="nav-list">
+            <li class="nav-item nav-button">
+              <a href="http://leecombs.me/about">About</a>
+            </li>
+            <li class="nav-item nav-button">
+              <a href="http://leecombs.me/category/projects">Projects</a>
+            </li>
+            <li class="nav-item nav-button">
+              <a href="http://leecombs.me/resume">Resume</a>
+            </li>
+          </ul>
         </div>
-        <div class="row" id="personal-name">
-          <!-- Name -->
-        </div>
-        <div class="row" id="personal-intro">
-          <!-- Intro Blurb "Amateur Coder" -->
-        </div>
+        
+        <!-- Social Links -->
         <div class="row">
-          <!-- Nav Links -->
-          <!-- About -->
-          <!-- Projects -->
-          <!-- Resume -->
-        </div>
-        <div class="row">
-          <!-- Social Links -->
-          <!-- Github -->
-          <!-- LinkedIn -->
-          <!-- CodePen -->
-          <!-- RSS -->
+          <ul class="nav-list">
+            <li class="nav-item nav-social">
+              <a href="https://github.com/LeeCombs" title="Github" target="_blank">
+                <img id="github-icon" class="social-icon" src="/assets/github_icon.png">
+              </a
+            </li>
+            <li class="nav-item nav-social">
+              <a href="https://www.linkedin.com/in/lee-combs-41a362141/" title="LinkedIn" target="_blank">
+                <img id="linkedin-icon" class="social-icon" src="/assets/linkedin_icon.png">
+              </a>
+            </li>
+            <li class="nav-item nav-social">
+              <a href="https://codepen.io/LeeCombs/" title="CodePen"target="_blank">
+                <img id="codepen-icon" class="social-icon" src="/assets/codepen_icon.png">
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="col" id="detailed-info">
+      
+      <!-- Detailed Information -->
+      <div class="col" id="detailed-info" style="background-color: white; height:100%;">
         <!-- View for projects, writeups, about, etc. -->
         <!-- Unique to the content -->
+        <p>Detailed Content</p>
       </div>
     </div>
   </body>

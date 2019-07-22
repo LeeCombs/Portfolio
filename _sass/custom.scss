@@ -11,15 +11,7 @@
 body {
   background-color: var(--bg1-color);
   background-image: var(--bg1-image);
-}
-
-.wrapper {
-  width: 100%;
-  max-width: 100%;
-}
-
-.content {
-  max-width: 900px;
+  height: auto;
 }
 
 .row {
@@ -40,71 +32,60 @@ body {
   justify-content: center;
 }
 
-.content {
-  width: 850px;
-}
-
 /**
- * Site-specific
+ * Profile
  */
 
-
-.social-icon {
-  width: 20px;
-  height: 20px;
-  padding-right: 10px;
+.profile {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
-.parallax {
-  background-image: url("https://i.imgur.com/he6iPen.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.profile-image {
+  width: 150px;
 }
 
-.page-content {
-  padding: 0;
-  margin: 0;
-  
-  .wrapper {
-    padding: 0;
-  }
-  
-  .sub-header {
-    text-align: center;
-    color: white;
-    font-size: 28px;
-    width: 100%;
+.nav-list {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0px;
+}
 
-    h1 {
-      margin-bottom: 0px;
-    }
-  }
+.nav-item {
+  display: inline-block;
+}
+
+.nav-button {
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  min-width: 100px;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
   
-  .intro-blurb {
-    border-bottom: solid;
-    border-width: 1px;
-    padding: 5px;
-  }
-  
-  .profile-content {
-    background-color: white;
-    padding: 0 5px;
+  a {
+    color: darkgray;
+    text-decoration: none;
   }
 }
 
-a {
-  color: var(--hyper-link-color);
+.nav-button:hover {
+  border-color: white;
+  a {
+    color: darkorange;
+  }
 }
 
-a:visited {
-  color: var(--hyper-link-color);
+.nav-social {
+  max-width: 30px;
+  width: 30px;
+  padding: 0px 15px;
 }
 
-a:hover {
-  text-decoration: none;
+social-icon {
 }
+
 
 /**
  * Site Header
@@ -155,16 +136,6 @@ a:hover {
       }
     }
   }
-}
-
-/**
- * About Page
- */
-.profile-image {
-  max-width: 250px;
-  float: left;
-  box-shadow: 3px 3px 3px grey;
-  margin: 10px;
 }
 
 /**
