@@ -2,122 +2,37 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
   <body>
-    {%- include header.html -%}
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper parallax">
-        
-        <!-- Intro Header -->
-        <div class="row section" id="intro-header">
-          <div class="content">
-            <div class="col profile-image">
-              <img src="/assets/profile_image.png">
-            </div>
-            <div class="col intro-header">
-              <div class="row greeting">
-                <h1>My name is Lee Combs</h1>
-                <p>And I'm an amateur coder</p>
-              </div>
-              <div class="row line-break"></div>
-              
-              <div class="col header-social">
-                <p>You can find me in a few places:</p>
-                <div>
-                  <a href="https://github.com/LeeCombs" title="Github" target="_blank">
-                    <img class="social-icon" src="/assets/github.svg">Github
-                  </a>
-                </div>
-                <div>
-                  <a href="https://www.linkedin.com/in/lee-combs-41a362141/" title="LinkedIn" target="_blank">
-                    <img class="social-icon" src="/assets/linkedin.png">LinkedIn
-                  </a>
-                </div>
-                <div>
-                  <a href="https://codepen.io/LeeCombs/" title="CodePen"target="_blank">
-                    <img class="social-icon" src="/assets/Codepen.png">CodePen
-                  </a>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-        </div> <!-- End Intro Header -->
-        
-        <!-- About -->
-        <div class="row section" id="about">
-          <div class="content">
-            <div class="row">
-              <h1>A Little Bit About Me</h1>
-              <div class="row line-break"></div>
-            </div>
-            <div class="row">
-              <p>I’m Lee Combs and I recently moved to London, Ontario and I’m looking to start my career as a software developer. I’m into gaming, reading, traveling, board games, and I recently got a golden retriever, Zelda, and an orange tabby, Cinder!</p>
-              <p>I am a self-taught developer who got my start by pursuing an interest in game development, my first language being <strong>Actionscript 3</strong>. Since then I have received a Computer Systems Technology diploma from Camosun College, and have started a handful of projects in an attempt to learn new languages.</p>
-            </div>
-            <div class="row">
-              <a href="/about">
-                <button>Read More</button>
-              </a>
-            </div>
-          </div>
-        </div> <!-- End About -->
-        
-        <!-- Recent Activity -->
-        <div class="row section" id="recent-activity">
-          <div class="content">
-            <div class="row">
-              <div class="col">
-                <h1>Recent Activity</h1>
-                <div class="row line-break-black"></div>
-                <p>Here are some things that I have been working on. Most recently my biggest project is Fractal Pixels, which is my site for game development tutorials that I write up while learning <strong>C#</strong> and <strong>Unity</strong>. It currently gets double digit views every day! I'm also working on recreating site layouts to brush up on <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JS</strong>, which is currently hosted on CodePen.</p>
-              </div>
-            </div>
-            <div class="row">
-              {%- include recent_activity.html -%}
-            </div>
-            <div class="row">
-              <a href="/category/projects">
-                <button>See All Projects</button>
-              </a>
-            </div>
-          </div>
-        </div> <!-- End Recent Activity -->
-        
-        <!-- Work Experience -->
-        <div class="row section" id="work-experience">
-          <div class="content">
-            <div class="row">
-              <h1>Work and School Experience</h1>
-              <div class="row line-break"></div>
-            </div>
-            <div class="row">
-              <p>I graduated from Camosun College, obtaining a diploma in Computer Systems Technology. I was lucky enough to work with a wide variety of fellow students and, most proudly, worked for Cloud Compass Computing with an incredible team to develop and deliver their product "StackButton".</p>
-              <p>I've worked in retail since, I believe, 2009. During that time I've worked in a handful of different departments, from the high energy Deli with a wide variety of interesting customers, to the methodical File Maintenance where accuracy and teamwork are king.</p>
-            </div>
-            <div class="row">
-              <a href="/resume">
-                <button>View the Resume</button>
-              </a>
-            </div>
-          </div>
-        </div> <!-- End Work Experience -->
-        
-        <!-- Contact -->
-        <div class="row section" id="contact">
-          <div class="content">
-            <div class="row">
-              <h1>Contact Me</h1>
-              <div class="row line-break-black"></div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <p>Right now just email me at <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-                <p>I'll add a form soon</p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- End Contact -->
-      </div> <!-- End Wrapper -->
-    </main>
-    {%- include footer.html -%}
+    <div class="row imaged-background" id="site-wrapper">
+      <div class="col" id="personal-info">
+        <!-- View for information about me: pretty face, name, nav and social links -->
+        <!-- Collapsable -->
+        <div class="row">
+          <!-- Face -->
+        </div>
+        <div class="row" id="personal-name">
+          <!-- Name -->
+        </div>
+        <div class="row" id="personal-intro">
+          <!-- Intro Blurb "Amateur Coder" -->
+        </div>
+        <div class="row">
+          <!-- Nav Links -->
+          <!-- About -->
+          <!-- Projects -->
+          <!-- Resume -->
+        </div>
+        <div class="row">
+          <!-- Social Links -->
+          <!-- Github -->
+          <!-- LinkedIn -->
+          <!-- CodePen -->
+          <!-- RSS -->
+        </div>
+      </div>
+      <div class="col" id="detailed-info">
+        <!-- View for projects, writeups, about, etc. -->
+        <!-- Unique to the content -->
+      </div>
+    </div>
   </body>
 </html>
