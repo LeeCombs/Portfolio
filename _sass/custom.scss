@@ -31,8 +31,8 @@ body {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  align-items: center;
-  justify-content: center;
+  align-items: safe center;
+  justify-content: safe center;
 }
 
 #site-wrapper {
@@ -138,7 +138,7 @@ social-icon {
  * Content
  */
 
-.content {
+.detailed-info {
   float: left;
   width: 80%;
   background-color: white;
@@ -147,65 +147,41 @@ social-icon {
   overflow-y: auto;
 }
 
-
-/**
- * Site Header
- */
-.site-header {
-  background-color: var(--bg2-color);
-  background-image: var(--bg2-image);
-  border-top: 0px;
-
-  .site-title {
-    color: white;
-    font-weight: 400;
-  }
+.content {
+  width: 90%;
+  max-width: 800px;
+  padding: 100px 0;
   
-  .site-nav {
-    .menu-icon {
-      color: white;
-    }
-  }
   
-  .page-link {
-    color: white;
+  h1 {
+    width: 100%;
+    margin: 20px 0;
+    
+    font-weight: 600px;
+    font-size: 36px;
+    text-align: center;
+    
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
   }
 }
 
 /**
- * Site Footer
+ * Resume
  */
-.site-footer {
-  background-color: var(--bg2-color);
-  background-image: var(--bg2-image);
-  padding: 10px 0;
-  
-  .footer-heading {
-    color: white;
-    font-weight: 500;
-    margin-bottom: 10px;
-  }
-  
-  .footer-col-wrapper {
-    color: white;
-  }
-  
-  .social-media-list {
-    a {
-      .username {
-        color: var(--hyper-link-color);
-      }
-    }
-  }
-}
+
+
 
 /**
  * Misc
  */
+
 .dated-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  text-align: center;
+  
+  h2, h3 {
+    margin: 0;
+  }
   
   span {
     color: gray;
