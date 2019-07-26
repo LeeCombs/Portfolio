@@ -3,7 +3,7 @@
   --bg1-image: url(/assets/background_3_edit.jpg);
   
   --bg2-color: darkslategray;
-  --bg2-image: url(/assets/background_2.png);
+  --bg2-image: url(/assets/green_squares.png);
   
   --hyper-link-color: lightskyblue;
 }
@@ -139,9 +139,11 @@ social-icon {
  */
 
 .detailed-info {
+  background-color: var(--bg2-color);
+  background-image: var(--bg2-image);
+  
   float: left;
   width: 80%;
-  background-color: white;
   height: 100%;
   
   overflow-y: auto;
