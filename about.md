@@ -2,6 +2,7 @@
 layout: resume
 title: About
 permalink: /about
+
 ---
 
 <div class="content-header">

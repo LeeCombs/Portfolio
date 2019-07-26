@@ -24,15 +24,6 @@
   }
 }
 
-#about, #work-experience {
-  color: white;
-  background-image: url("/assets/dark_green_squares.png");
-}
-
-#recent-activity, #contact {
-  color: black;
-  background-image: url("/assets/green_squares.png");
-}
 .header-social {
   align-self: flex-start;
   align-items: flex-start;
@@ -41,7 +32,6 @@
     margin-bottom: 5px;
   }
 }
-
 
 .section {
   padding-top: 30px;

@@ -4,12 +4,28 @@
   <body>
     {%- include header.html -%}
     <main class="page-content" aria-label="Content">
-      <div class="wrapper content">
-        <div class="sub-header">
-          <h1>{{ page.title }}</h1>
+      <div class="wrapper">
+        
+        <!-- Header -->
+        <div class="row imaged-backdrop">
+          <div class="content">
+            <div class="row sub-header">
+              <h1>{{ page.title }}</h1>
+            </div>
+
+            {%- if page.intro -%}
+            <div class="row page-intro">
+              {{ page.intro }}
+            </div>
+            {%- endif -%}
+          </div>
         </div>
-        <div class="profile-content">
-          {{ content }}
+        
+        <!-- Content -->
+        <div class="row">
+          <div class="content">
+            {{ content }}
+          </div>
         </div>
       </div>
     </main>

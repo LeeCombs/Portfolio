@@ -18,3 +18,4 @@ category: projects
   {%- include category.html -%}
 </div>
 
+<!-- Why is this even here any more?? -->
