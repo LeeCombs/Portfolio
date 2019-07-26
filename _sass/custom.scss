@@ -38,6 +38,18 @@ body {
 #site-wrapper {
   height: 100vh;
 }
+
+@media (max-width: 900px) {
+  #profile-info {
+    display: none;
+  }
+  
+  #detailed-info {
+    width: 100%;
+  }
+}
+
+
 /**
  * Profile
  */
