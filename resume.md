@@ -4,6 +4,10 @@ title: Resume
 permalink: /resume
 ---
 
+<div class="content-header">
+  <h1>Resume</h1>
+</div>
+
 # Objective
 To find and work with a great team to build great software. To start my career as a software developer and create tools and sites that people find helpful and interesting. Eventually I'd like to manage my own team and spearhead a project, be it an interesting website, a fun video game, or something helpful.
 
