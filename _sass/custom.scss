@@ -54,21 +54,25 @@ body {
 }
 
 .profile-image {
-  width: 150px;
+  width: 200px;
   
   img {
     border-radius: 50%;
+    box-shadow: 0 3px 2px rgba(0,0,0,0.3);
   }
 }
 
 #profile-name {
   color: white;
-  font-weight: bolder;
+  font-weight: 900;
+  font-size: 42px;
   margin: 10px auto;
 }
 
 #profile-intro {
   color: white;
+  font-weight: 900;
+  font-size: 22px;
   margin: 10px auto;
 }
 
@@ -150,7 +154,7 @@ social-icon {
 }
 
 .content {
-  padding: 70px 0;
+  padding: 70px 10px;
   max-width: 900px;
   
   h1 {
