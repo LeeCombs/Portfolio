@@ -2,10 +2,10 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
   <body>
-    <div class="row imaged-background" id="site-wrapper">
+    <div class="imaged-background" id="site-wrapper">
       
       <!-- Profile Information -->
-      <div class="col profile" id="profile-info">
+      <div class="col profile" id="profile-info" style="width: 100%">
         <!-- View for information about me: pretty face, name, nav and social links -->
         <!-- Collapsable -->
         
@@ -28,15 +28,15 @@
         <!-- Nav Links -->
         <div class="row">
           <ul class="nav-list">
-            <li class="nav-item nav-button">
-              <a href="http://leecombs.me/about">About</a>
-            </li>
-            <li class="nav-item nav-button">
-              <a href="http://leecombs.me/category/projects">Projects</a>
-            </li>
-            <li class="nav-item nav-button">
-              <a href="http://leecombs.me/resume">Resume</a>
-            </li>
+            <a class="nav-item nav-button" href="http://leecombs.me/about">
+              <li>About</li>
+            </a>
+            <a class="nav-item nav-button" href="http://leecombs.me/projects">
+              <li>Projects</li>
+            </a>
+            <a class="nav-item nav-button" href="http://leecombs.me/resume">
+              <li>Resume</li>
+            </a>
           </ul>
         </div>
         
@@ -46,7 +46,7 @@
             <li class="nav-item nav-social">
               <a href="https://github.com/LeeCombs" title="Github" target="_blank">
                 <img id="github-icon" class="social-icon" src="/assets/github_icon.png">
-              </a
+              </a>
             </li>
             <li class="nav-item nav-social">
               <a href="https://www.linkedin.com/in/lee-combs-41a362141/" title="LinkedIn" target="_blank">
@@ -60,13 +60,6 @@
             </li>
           </ul>
         </div>
-      </div>
-      
-      <!-- Detailed Information -->
-      <div class="col" id="detailed-info" style="background-color: white; height:100%;">
-        <!-- View for projects, writeups, about, etc. -->
-        <!-- Unique to the content -->
-        <p>Detailed Content</p>
       </div>
     </div>
   </body>
