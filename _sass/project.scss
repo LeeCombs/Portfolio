@@ -19,9 +19,16 @@
 }
 
 .project-card {
-  min-height: 100px;
+  min-height: 120px;
   width: inherit;
-  padding: 10px 10px 10px 10px;
+  padding: 5px 0;
+  margin: 10px 0;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+
+  a {
+    text-decoration: none;
+  }
   
   img {
     width: 100px;
@@ -31,18 +38,24 @@
     background-color: white;
   }
   
-  div {
-    padding-left: 120px;
+  #card-content {
+    margin-left: 120px;
     color: black;
   }
   
   h1 {
-    padding-left: 110px;
-    margin-bottom: 0;
+    margin: 0;
     color: black;
+    border: none;
+    text-align: left;
+    margin-left: 120px;
   }
   
   .current {
     color:red;
   }
+}
+
+.project-card:hover {
+  background-color: lightgreen;
 }
