@@ -4,6 +4,10 @@ title: Resume
 permalink: /resume
 ---
 
+<div class="content-header">
+  <h1>Resume</h1>
+</div>
+
 # Objective
 To find and work with a great team to build great software. To start my career as a software developer and create tools and sites that people find helpful and interesting. Eventually I'd like to manage my own team and spearhead a project, be it an interesting website, a fun video game, or something helpful.
 
@@ -14,9 +18,9 @@ To find and work with a great team to build great software. To start my career a
 - Developed several applications among different teams of widely varying technical and communication skills
 - Designed and wrote user manuals, memos, and reports using Microsoft Word, Excel, and OpenOffice
 
-# Experience
+# Experience & Education
 
-## Projects
+## **Projects**
 
 **Stackbutton**
 - Developed and designed a web application using Angular2, TypeScript, PatternFly, Bootstrap, and Docker
@@ -27,7 +31,8 @@ To find and work with a great team to build great software. To start my career a
 - Created a Developer Manual for a web-application to ease new teams into developing Stackbutton
 
 <div class="dated-header">
-  <h2>School</h2><span>2015 - 2017</span>
+  <h2><strong>School</strong></h2>
+  <span>2015 - 2017</span>
 </div>
 
 **Camosun College**
@@ -67,19 +72,3 @@ To find and work with a great team to build great software. To start my career a
 - Maintained clean work and storage areas at all times in compliance to Health and Safety requirements
 - Trained junior staff on Food Safety Protocols, Standard Operating Procedures, and Health and Safety
 - Provided excellent customer service in a fast-paced environment
-
-# Education
-<div class="dated-header">
-  <h3>Camosun College</h3>
-  <span>2015-2017</span>
-</div>
-Computer Systems Technology Diploma
-
-<div class="dated-header">
-  <h3>Edward Milne Community School</h3>
-  <span>A While Ago</span>
-</div>
-
-<p style="margin-bottom:0;">
-  High School Dipoma
-</p>

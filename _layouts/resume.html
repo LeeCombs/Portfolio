@@ -1,7 +1,19 @@
----
-layout: default
----
-
-<div class="resume-content">
-  {{ content }}
-</div>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body>
+    <div class="imaged-background" id="site-wrapper">
+      
+      <!-- Profile Information -->
+      {%- include profile_sidebar.html -%}
+      
+      <!-- Detailed Information -->
+      <div class="col detailed-info" id="detailed-info">
+        <!-- View for projects, writeups, about, etc. -->
+        <div class="col content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

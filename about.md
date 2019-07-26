@@ -1,21 +1,16 @@
 ---
-layout: default
+layout: resume
 title: About
 permalink: /about
 
 ---
 
-<div class="about-intro" markdown="1">
-
-  <div class="profile-image">
-    <img src="/assets/profile_image.png">
-  </div>
-  
-  <h1>Who Am I?</h1>
-
-  I'm Lee Combs and I recently moved to London, Ontario. I'm looking to start my career as a software developer. I'm into gaming, reading, traveling, board games, and I recently got dog and a cat!
-
+<div class="content-header">
+  <h1>About Me</h1>
 </div>
+
+I'm Lee Combs and I recently moved to London, Ontario. I'm looking to start my career as a software developer. I'm into gaming, reading, traveling, board games, and I recently got dog and a cat!
+
 
 # Programming background
 
@@ -29,6 +24,9 @@ Video games mainly. I got hooked early with the Nintendo, then the PlayStation, 
 
 I've been getting back into reading and am currently working through Terry Pratchett's Disc World novels. I really enjoy Jack Whyte's books about the Camulod Chronicles, of which I first read Uther in high school.
 
-<p style="margin-bottom:0;">
-  I recently adopted two animals! A 3 month old golden retriever named Zelda, and a 4 month old orange tabby named Cinder. Sleep has been hard to come by since they came into the house, but they're very much worth the effort (most of time).
-</p>
+Not long after we moved out here, we adopted two animals! A golden retriever named Zelda, and an orange tabby named Cinder.
+
+<div class="row pet-images">
+  <img src="assets/Cinder%20.jpg" alt="Cinder" title="Cinder">
+  <img src="assets/Zelda.jpg" alt="Zelda" title="Zelda">
+</div>
