@@ -150,7 +150,7 @@ social-icon {
 .content {
   width: 90%;
   max-width: 800px;
-  padding: 100px 0;
+  padding: 70px 0;
   
   
   h1 {
@@ -201,4 +201,11 @@ social-icon {
   color: gray;
   font-style: italic;
   font-size: 12;
+}
+
+.pet-images {
+  img {
+    max-height: 300px;
+    margin: 10px 20px;
+  }
 }
