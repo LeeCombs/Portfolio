@@ -9,6 +9,8 @@
     <h1 id="card-title">{{ post.title }}</h1>
 
     <div id="card-content">
+      <strong>Date:</strong> {{ post.date | date: "%B %-d, %Y" }}
+      <br>
       <strong>Technologies:</strong> {{ post.technologies }}
       <br>
       <strong>Description:</strong> {{ post.short_description }}
