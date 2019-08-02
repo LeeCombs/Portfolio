@@ -10,9 +10,9 @@ description: |
     I'm recreating various front end layouts in an attempt to de-rust and practice my HTML, CSS, JS, etc. Nothing really goes beyond the first page, unless otherwise stated. I'm keeping it simple with just basic HTML, CSS, and JS.
 thumbnail_link: /assets/codepen_thumb.png
 images:
-    - /assets/codepen/codepen_ss_1.png
-    - /assets/codepen/codepen_ss_2.png
-    - /assets/codepen/codepen_ss_3.png
+    - /assets/CodePen/codepen_ss_1.png
+    - /assets/CodePen/codepen_ss_2.png
+    - /assets/CodePen/codepen_ss_3.png
 ---
 
 # Overview
