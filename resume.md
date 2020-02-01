@@ -46,6 +46,13 @@ To find and work with a great team to build great software. To start my career a
 # Work
 
 <div class="dated-header">
+  <h2>FreshCo</h2><span>2018 - Current</span>
+</div>
+
+**Grocery Nightshift Clerk**
+- Stocked shelves, dealt with customers, real minimum wage kinda job with tragic hours
+
+<div class="dated-header">
   <h2>Thrifty Foods</h2><span>2009 - 2018</span>
 </div>
 
