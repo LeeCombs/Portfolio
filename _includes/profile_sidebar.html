@@ -2,7 +2,7 @@
   <!-- View for information about me: pretty face, name, nav and social links -->
   <!-- Collapsable -->
 
-  <a href="http://leecombs.me">
+  <a href="{{ site.url }}">
     <div class="row profile-image">
       <img src="/assets/profile_image.png">
     </div>
@@ -23,13 +23,13 @@
   <!-- Nav Links -->
   <div class="row">
     <ul class="nav-list" style="max-width: 200px;">
-      <a class="nav-item nav-button" href="http://leecombs.com/about">
+      <a class="nav-item nav-button" href="{% link about.md %}">
         <li>About</li>
       </a>
-      <a class="nav-item nav-button" href="http://leecombs.com/category/projects">
+      <a class="nav-item nav-button" href="{% link category/projects.md %}">
         <li>Projects</li>
       </a>
-      <a class="nav-item nav-button" href="http://leecombs.com/resume">
+      <a class="nav-item nav-button" href="{% link resume.md %}">
         <li>Resume</li>
       </a>
     </ul>

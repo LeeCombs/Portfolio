@@ -16,7 +16,7 @@ I'm Lee Combs and I recently moved to London, Ontario. I'm looking to start my c
 
 I am a self-taught developer who got my start by pursuing an interest in game development. My first language was **Actionscript 3**, which I learned while tinkering with game code and using the **Flixel** framework.
 
-Since then I have received a Computer Systems Technology diploma from Camosun College and am looking to start my career. From there I have started a handful of projects in an attempt to learn new languages, and am most comfortable with **C#**. I have messed around a bit in **Haxe**, **Ruby**, **Go**, **Python**, **C**, and **C++**. You can check out my [projects page](http://leecombs.me/category/projects.html) to see more about my side projects.
+Since then I have received a Computer Systems Technology diploma from Camosun College and am looking to start my career. From there I have started a handful of projects in an attempt to learn new languages, and am most comfortable with **C#**. I have messed around a bit in **Haxe**, **Ruby**, **Go**, **Python**, **C**, and **C++**. You can check out my [projects page]({% link category/projects.md %}) to see more about my side projects.
 
 # Hobbies etc.
 
